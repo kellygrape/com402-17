@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Class-infos on COM402 Advanced Web Design</title>
+    <link>http://com402.kellyannepipe.me/class-info/index.xml</link>
+    <description>Recent content in Class-infos on COM402 Advanced Web Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jan 2017 11:09:15 -0500</lastBuildDate>
+    <atom:link href="http://com402.kellyannepipe.me/class-info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Class Information</title>
+      <link>http://com402.kellyannepipe.me/class-info/</link>
+      <pubDate>Wed, 04 Jan 2017 11:09:15 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class-info/</guid>
+      <description>
+
+&lt;h3 id=&#34;saint-joseph-s-university-com402&#34;&gt;Saint Joseph&amp;rsquo;s University COM402&lt;/h3&gt;
+
+&lt;h1 id=&#34;class-information&#34;&gt;Class Information&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>http://com402.kellyannepipe.me/class-info/schedule/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class-info/schedule/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;January-February : HTML and CSS&lt;/li&gt;
+&lt;li&gt;March : Javascript&lt;/li&gt;
+&lt;li&gt;April : Wordpress / General Topics&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://com402.kellyannepipe.me/class-info/syllabus/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class-info/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;catalog-description&#34;&gt;Catalog Description&lt;/h3&gt;
+
+&lt;p&gt;The class will be a mixture of web design theory and practical front-end techniques. Students are expected to have experience hand-coding websites using HTML and CSS, a basic understanding of using Git, and be familiar with basic principles of design such as color and typography. Topics covered will include: usability, accessibility, git, Javascript/jQuery, designing for content management, and using WordPress as a CMS. By the end of this course, students should have a solid understanding of the web design industry and modern web design techniques.&lt;/p&gt;
+
+&lt;h2 id=&#34;course-prerequisite&#34;&gt;Course Prerequisite&lt;/h2&gt;
+
+&lt;p&gt;Students are required to have knowledge of hand-coding HTML and CSS. A passing grade in COM372 is a prerequisite for this course. Students who have not taken COM372 but who have experience with hand-coding HTML and CSS may be written into this course at the discretion of the professor.&lt;/p&gt;
+
+&lt;h2 id=&#34;instructor-information&#34;&gt;Instructor Information&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Kelly Anne Pipe&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Email: &lt;a href=&#34;mailto:kpipe@sju.edu&#34;&gt;kpipe@sju.edu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitter: @kellygrape&lt;/p&gt;
+
+&lt;p&gt;Phone: 610-660-1672&lt;/p&gt;
+
+&lt;p&gt;I am a full-time administrator at SJU, typically on campus from 8:30am – 4:30pm. I am often at my desk, but do have meetings (and occasionally leave to eat lunch). You are encouraged to visit my office to ask questions, share concerns, or just say hi. Before stopping by, please email at &lt;strong&gt;kpipe@sju.edu&lt;/strong&gt;. This is especially true if you need extended help. For short queries, you can message me via Google Chat (&lt;strong&gt;kellyanne.martin@gmail.com&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;When emailing me, keep in mind that—depending on the day and email volume—it might take me 48 hours to respond. If I haven’t responded to you in 48 hours, please email me again. I won’t be offended or bothered: Things can get lost in digital transit, and I want to make sure your questions are answered in a timely fashion.&lt;/p&gt;
+
+&lt;p&gt;My office is in Bala 175 – the last SJU office right before the 7-11 across from Lannon Hall. My official office hours are on Wednesdays from 3:00pm – 4:00pm (I will do my best to not schedule meetings during this time); however, I’m frequently in my office.&lt;/p&gt;
+
+&lt;h2 id=&#34;required-texts&#34;&gt;Required Texts&lt;/h2&gt;
+
+&lt;p&gt;There are no required texts for this class.  Rather, a mix of online resources and tutorials will be offered to students, and at times there will be required reading of online articles.&lt;/p&gt;
+
+&lt;p&gt;If students prefer a text, I recommend&lt;/p&gt;
+
+&lt;p&gt;Duckett, Jonathan (2014). &lt;em&gt;JavaScript and JQuery: Interactive Front-End Web Development&lt;/em&gt;. Wiley&lt;/p&gt;
+
+&lt;p&gt;I will also ask you to use several specific pieces of free software which we will install together in class.&lt;/p&gt;
+
+&lt;p&gt;Students will be required to obtain a domain name.  This will be discussed in class.&lt;/p&gt;
+
+&lt;h2 id=&#34;course-overview-learning-objectives&#34;&gt;Course Overview &amp;amp; Learning Objectives&lt;/h2&gt;
+
+&lt;p&gt;There is absolutely no way that you will be able to learn everything about web design in a single course. Therefore, my goal for this course is to help you to teach yourself. You will be expected to take the initiative in your own learning.&lt;/p&gt;
+
+&lt;p&gt;In this course, you will be practicing new techniques and testing your creative skills. You are encouraged to try and fail. Do not be discouraged by your failures. I will do my best to help you understand where you may have gone wrong, and how you can approach fixing it. You must enter the class with curiosity, perseverance, and a desire to experiment (and thusly break things). A collective spirit of creativity and invention is one of the web’s most important gifts, and channeling that spirit is one of this course’s most primary goals.&lt;/p&gt;
+
+&lt;p&gt;There will be times when I do not know the answers. I have been doing web design for years, professionally for more than 5 years. I still do not know everything about web design and development. My hope is that, by the time this course is finished, you will have enough knowledge about the web design process that you are able to face new challenges throughout your professional career.&lt;/p&gt;
+
+&lt;p&gt;More traditionally, upon completion of this course, students will be able to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Code a simple website from scratch utilizing HTML and CSS&lt;/li&gt;
+&lt;li&gt;Explain &lt;strong&gt;progressive enhancement&lt;/strong&gt; and how it applies to web design and development&lt;/li&gt;
+&lt;li&gt;Understand how to utilize a &lt;strong&gt;web framework (&lt;/strong&gt;such as Bootstrap or Skeleton) to speed development&lt;/li&gt;
+&lt;li&gt;Be able to discuss the &lt;strong&gt;role of the user &lt;/strong&gt;in design, and how to develop with the user in mind.&lt;/li&gt;
+&lt;li&gt;Describe what &lt;strong&gt;Javascript and jQuery&lt;/strong&gt; are, have a basic fluency in common interactive elements, and have a basic understanding of how to use these scripting languages&lt;/li&gt;
+&lt;li&gt;Have competency in WordPress as a &lt;strong&gt;content management system&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Evaluate WordPress &lt;strong&gt;themes and plugins&lt;/strong&gt;, install and integrate plugins and themes as needed&lt;/li&gt;
+&lt;li&gt;Understand how to &lt;strong&gt;create a basic WordPress theme&lt;/strong&gt;, as well as customizing pre-made themes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;class-requirements&#34;&gt;Class Requirements&lt;/h2&gt;
+
+&lt;p&gt;The final grade will be determined by performance on the following projects. The specific details of each project will be included on the project’s assignment sheet and discussed in class. You must complete each assignment to earn a passing grade!&lt;/p&gt;
+
+&lt;h3 id=&#34;project-1-html-css-20&#34;&gt;Project #1 HTML / CSS (20%)&lt;/h3&gt;
+
+&lt;h3 id=&#34;project-2-advanced-css-design-20&#34;&gt;Project #2 Advanced CSS / Design (20%)&lt;/h3&gt;
+
+&lt;h3 id=&#34;project-3-javascript-20&#34;&gt;Project #3 Javascript (20%)&lt;/h3&gt;
+
+&lt;h3 id=&#34;final-project-website-20&#34;&gt;Final Project Website (20%)&lt;/h3&gt;
+
+&lt;p&gt;These four projects will be assigned through the course of the semester, and will reinforce and showcase what you have learned.&lt;/p&gt;
+
+&lt;h3 id=&#34;experiments-challenges-homework-participation-attendance-20&#34;&gt;Experiments / Challenges / Homework / Participation &amp;amp; Attendance (20%)&lt;/h3&gt;
+
+&lt;p&gt;After each lesson I will assign homework.  This might be a reading, a set of lessons from an online learning tool, a thought exercise, or a small assignment.  Due dates will be included with each assignment.  Any work submitted late will be subject to point deductions.&lt;/p&gt;
+
+&lt;h2 id=&#34;policies&#34;&gt;Policies&lt;/h2&gt;
+
+&lt;h3 id=&#34;attendance-attention-participation&#34;&gt;Attendance, Attention, &amp;amp; Participation&lt;/h3&gt;
+
+&lt;p&gt;As this course is highly interactive and practice/discussion-driven, your success is absolutely tethered to your presence and participation. The course will move quickly, and each successive meeting will build upon the concepts of the previous. Missing a class puts you at a serious disadvantage in terms of the larger semester arc.&lt;/p&gt;
+
+&lt;p&gt;In Short: Like a math course, each of our meetings adds a new skill that builds upon those previously learned. By missing one class, you will be very behind for the next.&lt;/p&gt;
+
+&lt;p&gt;Please come to class on time, prepared, having completed the assigned reading and writing, and ready to contribute to class discussions, to listen seriously and respectfully to the thoughts of others, and to participate in all in-class activities. Lateness is also unacceptable; if you arrive late to class or leave early, you can be marked as absent. Only three absences are permitted, and these should be used for illness or emergencies (i.e. this does not mean three absences plus absences for illness etc.). Each absence after your third will result in a .25 deduction from your final grade—making, for example, a 3.25 a 3.0. After the sixth absence, you will fail the class (a grade of FA). Your primary responsibility is to be in class and fully present.&lt;/p&gt;
+
+&lt;p&gt;Beyond mere presence, however, a successful course requires student participation. Students are expected to come to class on time, prepared, having completed the assigned reading and writing, and ready to work in the lab, to listen seriously and respectfully to the thoughts of others, and to participate in all in-class activities. I strongly urge you to attend every class, as most of the work done in class is necessary for successful completion of the course.&lt;/p&gt;
+
+&lt;h3 id=&#34;course-website&#34;&gt;Course Website&lt;/h3&gt;
+
+&lt;p&gt;The course website for this class can be found at &lt;a href=&#34;http://com402.kellyannepipe.me&#34;&gt;http://com402.kellyannepipe.me&lt;/a&gt;. You should get in the habit of checking this regularly as I will post suggestions and thoughts about the readings here, as well as links to other things that might interest the class. The syllabus can be found here as well, and any changes to the syllabus will be posted here.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-note-on-technology&#34;&gt;A Note on Technology&lt;/h3&gt;
+
+&lt;p&gt;Although a majority of the tools we will be using in class are open source and free, they aren’t all web based or easily portable. We do have lab computers on which you can work; however, you will probably find it easier to use your own computer, if possible. Bringing your own computer and configuring it during class and lab sessions might save you time later.&lt;/p&gt;
+
+&lt;p&gt;Should you need to use additional materials: In the IT office in the basement of Merion Hall (directly below our classroom), COM students have access to a variety of audio/visual equipment. Check out time is 48 hours.&lt;/p&gt;
+
+&lt;h3 id=&#34;digital-etiquette&#34;&gt;Digital Etiquette&lt;/h3&gt;
+
+&lt;p&gt;Many of the assignments throughout the semester will require participation in online spaces. Students should work to preserve the same atmosphere of respect and consideration that occurs in the classroom. Disagreements may arise and consensus is not always possible (indeed disagreements are productive). However, name calling, harassing, flaming, trolling etc. is antithetical to the goals of this course.&lt;/p&gt;
+
+&lt;h3 id=&#34;grading&#34;&gt;Grading&lt;/h3&gt;
+
+&lt;p&gt;Specific grading criteria for each assignment will be discussed in class, but in general: I will evaluate your work on a 4.0 grading scale, where an outstanding performance yields a 4.0 (an A), good performance yields a 3.0 (a B), fair performance yields a 2.0 (a C), and work that simply meets the minimum requirements yields a 1.0 (a D). I will use an assignment-specific framework to evaluate each project, and each of those frameworks will be detailed on the assignment sheet and available to you before you submit your final draft.&lt;/p&gt;
+
+&lt;p&gt;Unless it is cleared with me before the deadline, late work will be penalized at 1 grade point per day late. So an A assignment becomes a B if submitted a day late, etc. If you feel that your project is going awry or that you won’t be able to meet a deadline, please contact me before the deadline. Depending on the project and the context, I can sometimes help with deadline pressure—if contacted in advance. After the deadline, the penalty stands.&lt;/p&gt;
+
+&lt;p&gt;The semester grade breakdown (based on a percentage of total available points) follows:&lt;/p&gt;
+
+&lt;table&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;A&lt;/td&gt;
+
+&lt;td&gt;B&lt;/td&gt;
+
+&lt;td&gt;C&lt;/td&gt;
+
+&lt;td&gt;D&lt;/td&gt;
+
+&lt;td&gt;F&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;B+: 89-87%&lt;/td&gt;
+
+&lt;td&gt;C+: 79-77%&lt;/td&gt;
+
+&lt;td&gt;D+: 69-67%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;A: 100-94%&lt;/td&gt;
+
+&lt;td&gt;B: 86-84%&lt;/td&gt;
+
+&lt;td&gt;C: 76-74%&lt;/td&gt;
+
+&lt;td&gt;D: 66-64%&lt;/td&gt;
+
+&lt;td&gt;F: 59-0%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;A-: 93-90%&lt;/td&gt;
+
+&lt;td&gt;B-: 83-80%&lt;/td&gt;
+
+&lt;td&gt;C-: 73-70%&lt;/td&gt;
+
+&lt;td&gt;D-: 63-60%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
+
+&lt;h3 id=&#34;university-policies&#34;&gt;University Policies&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Academic Honesty:&lt;/strong&gt; There are a few basic rules regarding the use of information in this course:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you use the language of your source, you must quote it exactly, enclose it in quotation marks, and cite the source—even (and especially) in your blog posts. This is called a direct quotation. A direct quotation is either enclosed in quotation marks or indented on the page. If you omit part of the wording, use an ellipsis (three periods, four if necessary for punctuation to indicate the omission). In any case, several words in succession taken from another source constitute direct quotation and must be acknowledged.&lt;/li&gt;
+&lt;li&gt;A paraphrase employs source material by restating an idea in an entirely new form that is original in both sentence structure and word choice. Paraphrased material also needs to be cited—either by parenthetical citation, in-sentence attribution, or hyperlink. Taking the basic structure from a source and substituting a few words is an unacceptable paraphrase and may be construed as plagiarism. Creating a new sentence by merging the wording of two or more sources is also plagiarism. The penalty for plagiarism is an automatic Fail for this class and a letter of notification to the Committee on Discipline.&lt;/li&gt;
+&lt;li&gt;When attaching or inserting any type of media (image, sound, etc) into your work, that media should be used and cited in a manner compliant with the work’s copyright or creative commons license. In most instances, you should seek out media that has a creative commons license or has been released to the public domain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In short: If you use media, information, or ideas that are not yours and not common knowledge, you must cite a source. I encourage you to familiarize yourself with the &lt;a href=&#34;http://hawkcentral.sju.edu/ics/support/kbanswer.asp?deptID=16171&amp;amp;amp;task=knowledge&amp;amp;amp;questionID=95&#34;&gt;University’s Academic Honesty Policy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;mandatory-reporting-counseling-and-psychological-services&#34;&gt;Mandatory Reporting / Counseling and Psychological Services&lt;/h3&gt;
+
+&lt;p&gt;As a faculty member, I am deeply invested in the well-being of each student I teach. I am here to assist you with your work in this course. If you come to me with other non-course-related concerns, I will do my best to help.&lt;/p&gt;
+
+&lt;p&gt;It is important for you to know that all faculty members are mandated reporters of any incidents of sexual misconduct. That means that I cannot keep information about sexual misconduct confidential if you share that information with me. I will keep the information as private as I can, but I am required to bring it to the attention of the institution’s Title IX Coordinator, Mary-Elaine Perry. If you would like to speak with her directly, she can be reached at mperry01@sju.edu or 610-660-1145.&lt;/p&gt;
+
+&lt;p&gt;Counseling and Psychological Services (CAPS) can provide confidential support and can assist you with determining how you would like to address this issue. CAPS is located at 504A Merion Gardens and can be reached at 610-660-1090. They also have walk-in hours M-F 11- 12:30 in LaFarge.&lt;/p&gt;
+
+&lt;p&gt;The Sexual Misconduct Policy is in the Student Handbook, and can be found &lt;a href=&#34;http://www.sju.edu/int/resources/humanresources/pdf/SexualMisconductPolicy.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;students-with-disabilities&#34;&gt;Students with Disabilities&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Requests for Accommodations&lt;/strong&gt; Reasonable academic accommodations may be provided to students who submit appropriate documentation of their disability. Students are encouraged to contact the Office of Student Disability Services at cmecke@sju.edu or 610.660.1774(voice) or 610.660-1620(TTY) if they have or think they may have a disability and wish to determine eligibility for academic accommodations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grievance Procedures for Students with Disabilities&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Appeal Process:&lt;/strong&gt; The Office of Student Disability Services will seek to provide reasonable accommodations to qualified students with disabilities. However, there may be times when a disagreement as to what is considered a reasonable accommodation will occur between the student and the University. The student has a right to file a grievance for complaints regarding a requested or offered reasonable accommodation on the basis of a disability under Section 504 and the Rehabilitation Act of 1973, Title II of the Americans with Disabilities Act (ADA) and University policies.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions regarding the appeals process, please contact Dr. Christine Mecke, Director Student Disability Services – Bellarmine – Room G10 - cmecke@sju.edu.&lt;/p&gt;
+
+&lt;p&gt;For further information regarding accommodations, please click the link below: &lt;a href=&#34;http://www.sju.edu/int/studentlife/studentresources/thesuccesscenter/ssd&#34;&gt;http://www.sju.edu/int/studentlife/studentresources/thesuccesscenter/ssd&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reference Information</title>
+      <link>http://com402.kellyannepipe.me/class-info/reference/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class-info/reference/</guid>
+      <description>
+
+&lt;h3 id=&#34;course-reference-material&#34;&gt;Course Reference Material&lt;/h3&gt;
+
+&lt;p&gt;This page will grow as the course goes on, and will be a quick way to reference some of the resources and materials used or mentioned in class.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

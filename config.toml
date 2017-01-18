@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "COM402 Advanced Web Design"
 baseurl = "http://com402.kellyannepipe.me/"
 theme = "hugo-theme-learn"
+publishDir = "docs"
 [params]
   currentclass = "class01"
   menu = [ "class-info", 

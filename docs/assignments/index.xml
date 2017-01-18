@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on COM402 Advanced Web Design</title>
+    <link>http://com402.kellyannepipe.me/assignments/index.xml</link>
+    <description>Recent content in Assignments on COM402 Advanced Web Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2017 18:43:51 -0500</lastBuildDate>
+    <atom:link href="http://com402.kellyannepipe.me/assignments/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Assignments</title>
+      <link>http://com402.kellyannepipe.me/assignments/</link>
+      <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/assignments/</guid>
+      <description>
+
+&lt;h1 id=&#34;assignments&#34;&gt;Assignments&lt;/h1&gt;
+
+&lt;p&gt;You can find a list of all assigned work here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/assignments/homework/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/assignments/homework/</guid>
+      <description>&lt;div class=&#34;homework-table&#34;&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Due Date&lt;/th&gt;
+&lt;th&gt;Short Description of Task&lt;/th&gt;
+&lt;th&gt;Link to Original Assignment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Friday, Jan 20&lt;/td&gt;
+&lt;td&gt;Sign up for Codecademy&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class01/homework/&#34;&gt;January 18, 2017&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Friday, Jan 20&lt;/td&gt;
+&lt;td&gt;Email professor with info about you&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class01/homework/&#34;&gt;January 18, 2017&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Monday, Jan 24&lt;/td&gt;
+&lt;td&gt;Codecademy &amp;ldquo;About Me&amp;rdquo; lesson&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class01/homework/&#34;&gt;January 18, 2017&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://com402.kellyannepipe.me/assignments/projects/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/assignments/projects/</guid>
+      <description>&lt;div class=&#34;homework-table&#34;&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Due Date&lt;/th&gt;
+&lt;th&gt;Short Description of Task&lt;/th&gt;
+&lt;th&gt;Link to Original Assignment&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Project #1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Project #2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Project #3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Final Project&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
