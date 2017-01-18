@@ -2,8 +2,8 @@
 title = "Homework"
 date = "2017-01-17"
 toc = true
-prev = "/class01/codechallenge"
-next = "/class01"
+prev = "/class02/codechallenge"
+next = "/class02"
 weight = 4
 
 +++

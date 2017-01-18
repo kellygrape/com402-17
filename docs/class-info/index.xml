@@ -259,6 +259,18 @@
 &lt;h3 id=&#34;course-reference-material&#34;&gt;Course Reference Material&lt;/h3&gt;
 
 &lt;p&gt;This page will grow as the course goes on, and will be a quick way to reference some of the resources and materials used or mentioned in class.&lt;/p&gt;
+
+&lt;h4 id=&#34;course-tools&#34;&gt;Course Tools&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; - A text editor that I recommend using for your web development&lt;/p&gt;
+
+&lt;h4 id=&#34;html&#34;&gt;HTML&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/com372-14/project-template&#34;&gt;Project Starter Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://github.com/com372-14/page-template&#34;&gt;Basic HTML Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;HTML Element Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

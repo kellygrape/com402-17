@@ -31,12 +31,20 @@
       <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class01/lessonplan/</guid>
-      <description>&lt;ol&gt;
+      <description>
+
+&lt;ol&gt;
 &lt;li&gt;Review Syllabus&lt;/li&gt;
 &lt;li&gt;Review Grading and Attendance Policies&lt;/li&gt;
 &lt;li&gt;Coding Challenge&lt;/li&gt;
 &lt;li&gt;Homework Assignments&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h4 id=&#34;setting-up-your-dev-environment&#34;&gt;Setting Up Your Dev Environment&lt;/h4&gt;
+
+&lt;p&gt;Before we begin, you should &lt;strong&gt;set up your development environment&lt;/strong&gt;. In this class we will use &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; as a web editor.  Please download it now and install it.&lt;/p&gt;
+
+&lt;p&gt;You will also need to set up a directory structure for this class.  On your &lt;strong&gt;Desktop&lt;/strong&gt;, create a new folder called &lt;strong&gt;COM402&lt;/strong&gt;.  Inside this folder, create &lt;strong&gt;three&lt;/strong&gt; subfolders - &lt;code&gt;assignments&lt;/code&gt;, &lt;code&gt;classwork&lt;/code&gt;, and &lt;code&gt;projects&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -46,18 +54,38 @@
       <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class01/codechallenge/</guid>
-      <description>&lt;ol&gt;
+      <description>
+
+&lt;p&gt;This coding challenge will be part of your &lt;code&gt;classwork&lt;/code&gt; folder.  Inside &lt;code&gt;COM402/classwork&lt;/code&gt;, create a new folder called &lt;code&gt;hare&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
 &lt;li&gt;Create an HTML page using the text provided in this &lt;a href=&#34;https://gist.github.com/kellygrape/a6e7dcbba371d31813c8&#34;&gt;Gist&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The page should look as close to the example provided by the teacher as you can.&lt;/li&gt;
+&lt;li&gt;The page should look as close to the &lt;a href=&#34;http://com402.kellyannepipe.me/haretortise.html&#34;&gt;example&lt;/a&gt; provided by the teacher as you can.&lt;/li&gt;
 &lt;li&gt;Feel free to use any resources or research you need and any method of building the page.  I want to get an idea of how you would approach this challenge.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h4 id=&#34;resources&#34;&gt;Resources&lt;/h4&gt;
+
+&lt;p&gt;In case you need it, here is the base setup for an HTML page.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
       <title>Homework</title>
       <link>http://com402.kellyannepipe.me/class01/homework/</link>
-      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class01/homework/</guid>
       <description>
