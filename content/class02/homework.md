@@ -2,26 +2,19 @@
 title = "Homework"
 date = "2017-01-17"
 toc = true
-prev = "/class02/codechallenge"
+prev = "/class02/lessonplan"
 next = "/class02"
 weight = 4
 
 +++
 
-### Due Friday, Jan 20
+### Due Monday, Jan 24
 
-1.  **Sign up** for a [CodeCademy account](https://www.codecademy.com/register/sign_up)
-2.  **Email Me** (kpipe@sju.edu) with your answers to the following.  There are no “correct” answers.
-    -   What is your name?
-    -   What do you prefer to be called?
-    -   What is the best email for me to get in touch with you?
-    -   Why are you taking this course?
-    -   What do you want to learn in this course?
-    -   Do you have a domain?  What is it?
-    -   Do you have an example of a website that you have designed that you can share with me?
-    -   What do you consider “web design”?
-    -   Are you allergic to any foods (sometimes I make baked goods and I don’t want to accidentally poison you)?
+1. (Originally assigned on Jan 18) [CodeCademy “About Me” lesson](https://www.codecademy.com/courses/web-beginner-en-3pc6w/0/1)
     
-### Due Monday, Jan 24  
-    
-3.  Brush up your HTML and CSS by **completing** the [CodeCademy “About Me” lesson](https://www.codecademy.com/courses/web-beginner-en-3pc6w/0/1). (This might be a little basic but that’s OK, it will be a good review!)  **Email me** when you have completed this. You should send me a link to your achievements page.
+#### Newly Assigned - both are due Monday, Jan 24
+
+1. Sign up for a domain name at [NameCheap](https://nc.me/).
+2. Do the following from the [Design for Hackers Curriculum, Lesson 1](https://hackdesign.org/lessons/1)
+   - Read the first two parts of [Startups, this is how design works](https://startupsthisishowdesignworks.com/).  You can stop at the part that starts talking about data.
+   - Look through [Beautiful Web Type](http://chad.is/beautiful-web-type/).  What do you think about this?  What is effective?

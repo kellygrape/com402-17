@@ -11,6 +11,6 @@ icon = "<b>X. </b>"
 
 ### Friday, January 20, 2017
 
-# Welcome 
+# Getting Online
 
-We will be diving right in - a quick review of the syllabus and some of my expectations for the class, and then a chance for you to flex your coding muscles.
+{{< youtube 7_LPdttKXPc >}}
