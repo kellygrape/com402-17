@@ -14,8 +14,11 @@ weight = 1
 |---------------------|------|------|
 |  Friday, Jan 20     |   Sign up for Codecademy   | [January 18, 2017](/class01/homework/)  |
 |  Friday, Jan 20     |   Email professor with info about you   | [January 18, 2017](/class01/homework/)  |
-|  Monday, Jan 24     |   Codecademy "About Me" lesson   | [January 18, 2017](/class01/homework/)  |
-|  Monday, Jan 24     |   Readings  | [January 20, 2017](/class02/homework/)  |
-|  Monday, Jan 24     |   Get a domain name  | [January 20, 2017](/class02/homework/)  |
+|  Monday, Jan 23     |   Codecademy "About Me" lesson   | [January 18, 2017](/class01/homework/)  |
+|  Monday, Jan 23     |   Readings  | [January 20, 2017](/class02/homework/)  |
+|  Monday, Jan 23     |   Get a domain name  | [January 20, 2017](/class02/homework/)  |
+|  Monday, Jan 30 | Codepen Assignment | [January 23, 2017](/class03/homework/) |
+
+
 
 {{% /fancytable %}}

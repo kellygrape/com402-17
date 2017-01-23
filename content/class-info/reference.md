@@ -12,10 +12,14 @@ weight = 3
 
 This page will grow as the course goes on, and will be a quick way to reference some of the resources and materials used or mentioned in class.
 
-#### Course Tools
+#### Course Info
 
-[Atom](https://atom.io/) - A text editor that I recommend using for your web development
+- [Atom](https://atom.io/) - A text editor that I recommend using for your web development
+- [Emmet](/class03/emmet) - About using Emmet for quick coding
 
+#### General Development
+
+- [File Naming & Folder Structure](/class03/filenaming) - Best practices for naming and organizing your files for projects.
 
 #### HTML
 
