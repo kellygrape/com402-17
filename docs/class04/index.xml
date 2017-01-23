@@ -17,11 +17,217 @@
       <guid>http://com402.kellyannepipe.me/class04/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;wednesday-january-27-2017&#34;&gt;Wednesday, January 27, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;html-css-review-part-2&#34;&gt;HTML / CSS Review Part 2&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s continue reviewing HTML and CSS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Selectors</title>
+      <link>http://com402.kellyannepipe.me/class04/selectors/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class04/selectors/</guid>
+      <description>
+
+&lt;h3 id=&#34;type-selector&#34;&gt;Type selector&lt;/h3&gt;
+
+&lt;p&gt;The most basic kind of selector, using just the name of the HTML element as the selector.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  li{
+    /* this will select all li on the page */
+    color: red;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;class-id-selector&#34;&gt;Class / ID selector&lt;/h3&gt;
+
+&lt;p&gt;The second-most basic kind of selectors, allows you to select elements that have attributes of either class or ID.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;div id=&amp;quot;main-content&amp;quot;&amp;gt;
+    &amp;lt;p class=&amp;quot;intro&amp;quot;&amp;gt;This is my intro text&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;This is the regular text&amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  #main-content{
+    /* we select the things within the div with the main-content 
+        ID by using #main-content */
+    font-size: 14px;
+  }
+  
+  .intro{
+    /* we select the things within the p with the intro class by using .intro */
+    color: red;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;universal-selector&#34;&gt;Universal selector&lt;/h3&gt;
+
+&lt;p&gt;The Universal Selector is the * in CSS (the asterix character). It is essentially a type selector that matches any type. (From &lt;a href=&#34;(http://css-tricks.com/almanac/selectors/u/universal/)&#34;&gt;CSS Tricks&lt;/a&gt;.  This isn&amp;rsquo;t frequently used (you may use it once or twice in your projects), but important to know.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://programmers.stackexchange.com/questions/178049/css-use-universal-selector-vs-html-or-body-selector&#34;&gt;What is the difference between using * or using &lt;code&gt;body&lt;/code&gt; as a selector?&lt;/a&gt; - the first two answers here are really good explanations of the difference.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/things-it-might-be-funuseful-to-try-the-universal-selector-on/&#34;&gt;Things it might be fun to try the universal selector on&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;descendant&#34;&gt;Descendant&lt;/h3&gt;
+
+&lt;p&gt;The descendant selector allows you to more &lt;strong&gt;more specific&lt;/strong&gt; with what you apply your CSS to.  For example, you might only want your list items inside your menu to be red; list items elsewhere on the page should be their regular color!&lt;/p&gt;
+
+&lt;p&gt;You can stack these however you like - the example below is a &lt;strong&gt;type&lt;/strong&gt; selector as a descendant of a &lt;strong&gt;class&lt;/strong&gt; selector.  You could also have two type selectors (&lt;code&gt;ul li&lt;/code&gt;), a class and a class (&lt;code&gt;.menu .active&lt;/code&gt;), etc.&lt;/p&gt;
+
+&lt;p&gt;Note the SPACE here between the selectors.  You could write something like &lt;code&gt;li.active&lt;/code&gt; - this would select all &lt;code&gt;li&lt;/code&gt;&amp;rsquo;s that have the class of &lt;code&gt;active&lt;/code&gt;.  This is not an example of a descendant selector.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  .menu li{
+    /* this will select all li within the element (div, ul, whatever) 
+        with the class &#39;menu&#39; */
+    color: red;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/almanac/selectors/d/descendant/&#34;&gt;CSS Tricks on Descendant Selectors&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;child-selector&#34;&gt;Child Selector&lt;/h3&gt;
+
+&lt;p&gt;This is very similar to the descendant selector.  It can get a bit confusing, so some examples might help.  Basically, whereas a &lt;strong&gt;descendant selector&lt;/strong&gt; (&lt;code&gt;.main li&lt;/code&gt;) will select all of the things (&lt;code&gt;li&lt;/code&gt;) anywhere inside of the other thing (&lt;code&gt;.main&lt;/code&gt;), a &lt;strong&gt;child selector&lt;/strong&gt; (&lt;code&gt;.main &amp;gt; li&lt;/code&gt;) will only select when the things (&lt;code&gt;li&lt;/code&gt;) are  &lt;strong&gt;direct children&lt;/strong&gt; of the other thing (&lt;code&gt;.main&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;You can see a visual of this on &lt;a href=&#34;http://css-tricks.com/almanac/selectors/c/child/&#34;&gt;CSS Tricks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is really helpful when styling lists.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/child-and-sibling-selectors/&#34;&gt;A good explanation and visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;selectors-that-you-should-read-about&#34;&gt;Selectors that you should read about&lt;/h2&gt;
+
+&lt;h3 id=&#34;attribute-selector&#34;&gt;Attribute selector&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/almanac/selectors/a/attribute/&#34;&gt;Read on CSS Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One thing a bit confusing about this article is that it limits the examples to the &amp;lsquo;rel&amp;rsquo; attribute.&lt;/p&gt;
+
+&lt;p&gt;Remember, an attribute is something that you add to your HTML tag.  &lt;code&gt;class&lt;/code&gt; is a type of an attribute in this example, as is &lt;code&gt;href&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;a href=&amp;quot;mailto:kpipe@sju.edu&amp;quot; class=&amp;quot;email-link&amp;quot;&amp;gt;Email Me!&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can&amp;rsquo;t always depend that people will remember to add the class to their email links, so we could create a style using the attribute HREF, so that if the HREF &lt;strong&gt;begins with&lt;/strong&gt; mailto, we want to make it bold and underline it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  a[href^=&amp;quot;mailto&amp;quot;] { color: red; }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;^=&lt;/code&gt; in that selector means &amp;lsquo;begins with&amp;rsquo;.  All email links always begin with &amp;lsquo;mailto&amp;rsquo;, so I know this will correctly target the email links on my website!&lt;/p&gt;
+
+&lt;h3 id=&#34;pseudo-class&#34;&gt;Pseudo-class&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/pseudo-class-selectors/&#34;&gt;Read on CSS Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are super useful!  You can use a pseudo-class to highlight only the last item of a list, for example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;li:last-child{
+  color: red;  
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or to add an underline when you hover on a link!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;a:hover{
+  text-decoration: underline;  
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;pseudo-element&#34;&gt;Pseudo-element&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/pseudo-element-roundup/&#34;&gt;Read on CSS Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A little more complex, but there are some interesting use-cases here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A note about pseudo-classes and pseudo-elements&lt;/strong&gt; - you&amp;rsquo;ll often see these with : or a :: between the selector.  There is no real difference - if you need to support IE8, make sure you use a single :.  More on this on &lt;a href=&#34;http://css-tricks.com/almanac/selectors/a/after-and-before/&#34;&gt;CSS Tricks&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;extra-bonus-selectors&#34;&gt;Extra Bonus Selectors&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s good to know that these exist.  I don&amp;rsquo;t frequently use them, and would probably need to look them up to remember what they did.  But they can certainly be useful in some circumstances.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/almanac/selectors/g/general-sibling/&#34;&gt;General Sibling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/almanac/selectors/a/adjacent-sibling/&#34;&gt;Adjacent sibling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;i-hate-css-tricks-and-want-other-resources-for-learning-about-this&#34;&gt;I hate CSS Tricks and want other resources for learning about this&lt;/h2&gt;
+
+&lt;p&gt;Not sure why you hate CSS Tricks, but here is another run-down of selectors from &lt;a href=&#34;http://learn.shayhowe.com/advanced-html-css/complex-selectors/&#34;&gt;Shay Howe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/crazy-town-selectors/&#34;&gt;Crazy-Town Selectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/&#34;&gt;Little CSS Stuff Newcomers Get Confused About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://specificity.keegan.st/&#34;&gt;Interactive Specificity Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lesson Plan</title>
+      <link>http://com402.kellyannepipe.me/class04/lessonplan/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class04/lessonplan/</guid>
+      <description>
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class3.html&#34;&gt;Slides for this Lesson - Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class4.html&#34;&gt;Slides for this Lesson - Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We should also review CSS Selectors.&lt;/p&gt;
+
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.girldevelopit.com/materials/html-intro&#34;&gt;Girl Develop It HTML/CSS Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learn.shayhowe.com/html-css/&#34;&gt;Shay Howe HTML/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class04/homework/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class04/homework/</guid>
+      <description>
+
+&lt;h2 id=&#34;due-friday-january-27&#34;&gt;Due Friday, January 27&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Take &lt;a href=&#34;http://flukeout.github.io/&#34;&gt;this CSS Quiz&lt;/a&gt;.  How did you do?&lt;/li&gt;
+&lt;li&gt;Work through the &lt;a href=&#34;http://learnlayout.com/&#34;&gt;CSS Layout Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/&#34;&gt;Little CSS Stuff Newcomers Get Confused About&lt;/a&gt; (this was in the &amp;ldquo;Resources&amp;rdquo; link on the previous page)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;due-monday-january-30&#34;&gt;Due Monday, January 30&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Codepen Assignment (assigned on &lt;a href=&#34;http://com402.kellyannepipe.me/class03/homework&#34;&gt;Monday&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

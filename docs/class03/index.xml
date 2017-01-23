@@ -6,22 +6,341 @@
     <description>Recent content in Class03s on COM402 Advanced Web Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2017 18:43:51 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://com402.kellyannepipe.me/class03/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Monday, January 23, 2017</title>
       <link>http://com402.kellyannepipe.me/class03/</link>
-      <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class03/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;monday-january-23-2017&#34;&gt;Monday, January 23, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;html-and-css-review&#34;&gt;HTML and CSS Review&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/cYmYpm7ZasA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;This is a REALLY GOOD video.  It&amp;rsquo;s long, but it&amp;rsquo;s a great talk-through of how a developer can approach a design and code it up, semantically.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lesson Plan</title>
+      <link>http://com402.kellyannepipe.me/class03/lessonplan/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/lessonplan/</guid>
+      <description>
+
+&lt;p&gt;By the end of this lesson, students should be comfortable using basic HTML to mark up a page.&lt;/p&gt;
+
+&lt;h2 id=&#34;atom-setup&#34;&gt;Atom Setup&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Everyone should have &lt;a href=&#34;https://atom.io&#34;&gt;Atom&lt;/a&gt; installed.&lt;/li&gt;
+&lt;li&gt;Open Atom, and Launch the Command Bar (Cmd+Shift+P)&lt;/li&gt;
+&lt;li&gt;Type &amp;ldquo;Install Package&amp;rdquo;, select &amp;ldquo;Settings View: Install Packages and Themes&amp;rdquo; and hit enter.&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;Emmet&amp;rdquo; in the install packages area.  Install the &amp;ldquo;emmet&amp;rdquo; package by hitting the &amp;ldquo;Install&amp;rdquo; button.  Make sure it is enabled.&lt;/li&gt;
+&lt;li&gt;Search for &amp;ldquo;Serve&amp;rdquo; in the install packages area.  Install the &amp;ldquo;atom-live-server&amp;rdquo; package by hitting the &amp;ldquo;Install&amp;rdquo; button.  Make sure it is enabled.&lt;/li&gt;
+&lt;li&gt;Restart Atom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.girldevelopit.com/materials/html-intro&#34;&gt;Girl Develop It HTML/CSS Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learn.shayhowe.com/html-css/&#34;&gt;Shay Howe HTML/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>File Structure and Naming</title>
+      <link>http://com402.kellyannepipe.me/class03/filenaming/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/filenaming/</guid>
+      <description>
+
+&lt;p&gt;Organizing your files for this class, and web design in general, is particularly important. Every web page you create will point to other web pages and resources using file paths. If you move files around or rename them, these pointers will break. Broken links are pretty easy to fix, but you’ll save yourself a &lt;em&gt;lot&lt;/em&gt; of headache in the long run by being organized.&lt;/p&gt;
+
+&lt;h2 id=&#34;file-naming&#34;&gt;File Naming&lt;/h2&gt;
+
+&lt;p&gt;URLs (web addresses) are &lt;strong&gt;case sensitive&lt;/strong&gt;, and only understand certain characters.&lt;/p&gt;
+
+&lt;p&gt;Allowed Characters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+    a b c d e f g h i j k l m n o p q r s t u v w x y z
+    0 1 2 3 4 5 6 7 8 9 - _ . ~
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Reserved Characters (don’t use):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    ! * &#39; ( ) ; : @ &amp;amp; = + $ , / ? % # [ ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Accented letters, non-latin symbols, and the reserved characters should always be avoided.&lt;/p&gt;
+
+&lt;p&gt;The most conspicuous thing missing from the list of legal characters is spaces. &lt;strong&gt;Avoid using spaces&lt;/strong&gt; in your file and folder names. &lt;code&gt;dashes-and_underscores&lt;/code&gt; are a great substitute.&lt;/p&gt;
+
+&lt;p&gt;When creating a new web site, your first file should always be &lt;code&gt;index.html&lt;/code&gt;. This is the first file a browser looks for when visiting a web site.&lt;/p&gt;
+
+&lt;h2 id=&#34;folder-structure&#34;&gt;Folder Structure&lt;/h2&gt;
+
+&lt;p&gt;Set up your folder structure for this class as follows (We’ll walk through setting this up initially):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;COM402/
+├── assignments/
+│   ├── 01-assignment-name/
+│   └── 02-assignment-name/
+│        ├── img/
+│        ├── css/
+│        ├── js/
+└── classwork/
+    ├── cc01/
+    │    ├── index.html
+    └── cc02/
+└── notes/
+    ├── topic-name/
+    └── topic-name/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note the trailing forward slash &lt;code&gt;/&lt;/code&gt; at the end is not part of the folder name - it just indicates a folder as opposed to a file.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+`assignments/` - each homework assignment or project gets a numbered folder. These are the folders you’ll turn in with each assignment.
+&lt;/li&gt;
+&lt;li&gt;
+`classwork/` - a folder where you can create and work on coding challenges.
+&lt;/li&gt;
+&lt;li&gt;
+`notes/` - a folder for your own reference. You can put a copy of the syllabus here, or other documents you find useful.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;character-sets&#34;&gt;Character Sets&lt;/h3&gt;
+
+&lt;p&gt;All of our HTML files will include a meta tag like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And all of our CSS files will include this line at the top:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@charset &amp;quot;UTF-8&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wikipedia on &lt;a href=&#34;https://en.wikipedia.org/wiki/Uniform_Resource_Locator#List_of_allowed_URL_characters&#34;&gt;URLs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The W3C has a good explanation on &lt;a href=&#34;https://www.w3.org/International/articles/definitions-characters/&#34;&gt;Unicode, and Character Sets vs Encoding&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Further Reading&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Editorial: &lt;a href=&#34;https://perishablepress.com/stop-using-unsafe-characters-in-urls/&#34;&gt;Stop Using Unsafe Characters in URLs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://utf8everywhere.org/&#34;&gt;UTF8 Everywhere&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reviewing HTML</title>
+      <link>http://com402.kellyannepipe.me/class03/htmlreview/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/htmlreview/</guid>
+      <description>
+
+&lt;p&gt;Let&amp;rsquo;s go through the following sets of slides, then start coding a small webpage.  This will be review for HTML and CSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class1.html&#34;&gt;Slides for this Lesson - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class2.html&#34;&gt;Slides for this Lesson - Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emmet - Quick Coding</title>
+      <link>http://com402.kellyannepipe.me/class03/emmet/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/emmet/</guid>
+      <description>
+
+&lt;p&gt;Emmet is a tool that allows us to quickly code HTML.  You still need to understand HTML, but Emmet is going to save you a lot of typing.&lt;/p&gt;
+
+&lt;p&gt;To get started, install &lt;a href=&#34;https://atom.io/&#34;&gt;&lt;strong&gt;Atom&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once Atom is installed, go to the &lt;strong&gt;File&lt;/strong&gt; menu, and select &lt;strong&gt;Preferences&lt;/strong&gt;.  The &lt;strong&gt;Settings panel&lt;/strong&gt; will open, and in the sidebar choose &lt;strong&gt;Install&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Search for &lt;code&gt;Emmet&lt;/code&gt;, and hit the &amp;ldquo;Install&amp;rdquo; button on the package from emmetio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://com402.kellyannepipe.me/course-files/emmet-01.png&#34; alt=&#34;Install Emmet Package in Atom&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;First, &lt;em&gt;create an html file&lt;/em&gt;.  The rest of this will not work unless you are working in a file with the extension &lt;code&gt;html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you are working in an html file, you will be able to use any of the Emmet shortcuts for creating your HTML, followed bt the &lt;code&gt;Tab&lt;/code&gt; key.&lt;/p&gt;
+
+&lt;h3 id=&#34;html-basic-structure&#34;&gt;HTML Basic Structure&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start with an empty HTML file.&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;!&lt;/code&gt; and hit the Tab key&lt;/li&gt;
+&lt;li&gt;Emmet should create the basic structure of a website for you!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-examples&#34;&gt;Other Examples&lt;/h3&gt;
+
+&lt;p&gt;A simple example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;article&amp;gt;header
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;All you have to do is hit TAB it will be parsed as.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;article&amp;gt;
+  &amp;lt;header&amp;gt;&amp;lt;/header&amp;gt;
+&amp;lt;/article&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To generate tags AFTER each other (rather than inside each other), use the &lt;code&gt;+&lt;/code&gt; symbol between your tags.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;article+header
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hit &lt;code&gt;TAB&lt;/code&gt; to parse as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;article&amp;gt;&amp;lt;/article&amp;gt;
+&amp;lt;header&amp;gt;&amp;lt;/header&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;simple-math&#34;&gt;Simple Math&lt;/h3&gt;
+
+&lt;p&gt;Sometimes you want to create a list with four items, each with a link tag inside.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ul&amp;gt;li*4&amp;gt;a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hit &lt;code&gt;TAB&lt;/code&gt; to parse as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;more-resources&#34;&gt;More Resources&lt;/h3&gt;
+
+&lt;p&gt;Here is a video tutorial on using Emmet.  Skip to 3:06 to get to the part where he is demonstrating Emmet (the stuff before that is about installing it).&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/0uIPGgq9R5Y&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;You can also check out the &lt;a href=&#34;http://docs.emmet.io/cheat-sheet/&#34;&gt;Emmet Cheat Sheet&lt;/a&gt;, or download a copy of the &lt;a href=&#34;http://com402.kellyannepipe.me/course-files/emmet-cheat-sheet.pdf&#34;&gt;handout I made for class&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class03/homework/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;due-monday-january-30&#34;&gt;Due Monday, January 30&lt;/h3&gt;
+
+&lt;h4 id=&#34;coding-assignment-1-codepen&#34;&gt;Coding Assignment #1 - Codepen&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Assigned : 1/23/2016&lt;/em&gt;
+&lt;em&gt;Due: 1/30/2016&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In this assignment, you will demonstrate your knowledge of basic HTML and CSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-setup&#34;&gt;The Setup&lt;/h3&gt;
+
+&lt;p&gt;Create a folder called &lt;code&gt;01-codepen&lt;/code&gt; in your &lt;code&gt;assignments&lt;/code&gt; folder.  All files for this assignment will go in this folder.&lt;/p&gt;
+
+&lt;p&gt;Create an HTML file in that folder and name it &lt;code&gt;index.html&lt;/code&gt;.  Use the following gist as your HTML base.  This is a good starter for any HTML file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;x-ua-compatible&amp;quot; content=&amp;quot;ie=edge, chrome=1&amp;quot; /&amp;gt;
+&amp;lt;!-- don&#39;t forget to add your title --&amp;gt;
+&amp;lt;title&amp;gt;untitled&amp;lt;/title&amp;gt;
+&amp;lt;!-- don&#39;t forget to link your stylesheet --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&amp;quot; /&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;!-- the content of your page starts here. --&amp;gt;
+
+&amp;lt;!--  if you aren&#39;t using javascript, you can delete this --&amp;gt;
+&amp;lt;script src=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create three additional HTML files and name them whatever you would like to name them.  Don&amp;rsquo;t forget our best practices for naming HTML files.&lt;/p&gt;
+
+&lt;p&gt;Create a &lt;code&gt;css&lt;/code&gt; folder, and inside of it a file named &lt;code&gt;style.css&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-content&#34;&gt;The Content&lt;/h3&gt;
+
+&lt;p&gt;Look through the &lt;a href=&#34;http://codepen.io/2016/popular/pens/&#34;&gt;top rated pens of 2016 on Codepen&lt;/a&gt;.  Select three pens that you find interesting.&lt;/p&gt;
+
+&lt;p&gt;Create a small website to share these three pens with the class.  There should be a main page with links to each of the sub pages.  Each sub page should include a &lt;em&gt;title&lt;/em&gt;, an &lt;em&gt;embedded version of the pen&lt;/em&gt;, a &lt;em&gt;link to the pen&lt;/em&gt;, and 150-300 word &lt;em&gt;explanation of why you chose the pen&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-html&#34;&gt;The HTML&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You should have 4 html files in your folder - an index and one file for each of your chosen pens.&lt;/li&gt;
+&lt;li&gt;You should have a menu (&lt;code&gt;nav&lt;/code&gt;) inside which is a list (&lt;code&gt;ul&lt;/code&gt;) with four items.  Each item should be a link to one of your four pages.  Your navigation should appear on every page.&lt;/li&gt;
+&lt;li&gt;Each page should be able to be &lt;a href=&#34;https://validator.w3.org/&#34;&gt;validated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Each page should have similar styling.  Do not use the browser defaults.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-css&#34;&gt;The CSS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use an external stylesheet with a &lt;link&gt; tag and a css file. Do not use inline or in-document styling for this assignment.  (What&amp;rsquo;s an external style sheet?  Check out &amp;ldquo;&lt;a href=&#34;http://learn.shayhowe.com/html-css/building-your-first-web-page/&#34;&gt;Building your First Web Page&lt;/a&gt;&amp;rdquo; for a refresher)&lt;/li&gt;
+&lt;li&gt;Define the basic CSS styles for the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;Create a &lt;code&gt;wrapper&lt;/code&gt; or &lt;code&gt;content&lt;/code&gt; div that contains everything in the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create at least 2 classes and assign them styles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bonus-challenge&#34;&gt;Bonus Challenge&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Was this too easy? Look at your navigation list.  How can you improve it?  Can you get rid of the bullets?  Can you make the items appear in a line (horizontal navigation)?  Or, can you put your navigation into a sidebar?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;submitting-your-assignment&#34;&gt;Submitting Your Assignment&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;On the day they are due, you will present your website to the class.&lt;/li&gt;
+&lt;li&gt;You will also create a &lt;em&gt;zip file&lt;/em&gt; of your entire 01-codepen folder and email it to me.&lt;/li&gt;
+&lt;li&gt;I am primarily looking to see that you 1) structured the CSS document correctly and got it working, and 2) did outside research on style properties to execute your design. It&amp;rsquo;s ok if what you have to show the class isn&amp;rsquo;t 100% of what you were aiming for. The point of showing your work is to share what you have and what you might have struggled with, so we can help each other with what we&amp;rsquo;ve learned.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -90,21 +90,27 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Monday, Jan 24&lt;/td&gt;
+&lt;td&gt;Monday, Jan 23&lt;/td&gt;
 &lt;td&gt;Codecademy &amp;ldquo;About Me&amp;rdquo; lesson&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class01/homework/&#34;&gt;January 18, 2017&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Monday, Jan 24&lt;/td&gt;
+&lt;td&gt;Monday, Jan 23&lt;/td&gt;
 &lt;td&gt;Readings&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class02/homework/&#34;&gt;January 20, 2017&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Monday, Jan 24&lt;/td&gt;
+&lt;td&gt;Monday, Jan 23&lt;/td&gt;
 &lt;td&gt;Get a domain name&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class02/homework/&#34;&gt;January 20, 2017&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Monday, Jan 30&lt;/td&gt;
+&lt;td&gt;Codepen Assignment&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class03/homework/&#34;&gt;January 23, 2017&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -176,6 +182,28 @@
 &lt;li&gt;March : Javascript&lt;/li&gt;
 &lt;li&gt;April : Wordpress / General Topics&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monday, January 23, 2017</title>
+      <link>http://com402.kellyannepipe.me/class03/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class03/</guid>
+      <description>
+
+&lt;h3 id=&#34;monday-january-23-2017&#34;&gt;Monday, January 23, 2017&lt;/h3&gt;
+
+&lt;h1 id=&#34;html-and-css-review&#34;&gt;HTML and CSS Review&lt;/h1&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/cYmYpm7ZasA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;This is a REALLY GOOD video.  It&amp;rsquo;s long, but it&amp;rsquo;s a great talk-through of how a developer can approach a design and code it up, semantically.&lt;/p&gt;
 </description>
     </item>
     
@@ -297,22 +325,6 @@
       <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class05/</guid>
-      <description>
-
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
-
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Friday, March 10, 2017</title>
-      <link>http://com402.kellyannepipe.me/class23/</link>
-      <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
-      
-      <guid>http://com402.kellyannepipe.me/class23/</guid>
       <description>
 
 &lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;

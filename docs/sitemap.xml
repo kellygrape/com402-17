@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class03/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class37/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
@@ -123,11 +128,6 @@
   
   <url>
     <loc>http://com402.kellyannepipe.me/class09/</loc>
-    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://com402.kellyannepipe.me/class03/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
   
@@ -247,6 +247,21 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class04/selectors/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class03/lessonplan/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class04/lessonplan/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class01/codechallenge/</loc>
     <lastmod>2017-01-06T18:41:57-05:00</lastmod>
   </url>
@@ -257,6 +272,11 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class03/filenaming/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class01/homework/</loc>
     <lastmod>2017-01-17T00:00:00+00:00</lastmod>
   </url>
@@ -264,6 +284,26 @@
   <url>
     <loc>http://com402.kellyannepipe.me/class02/homework/</loc>
     <lastmod>2017-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class03/htmlreview/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class03/emmet/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class03/homework/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class04/homework/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -303,7 +343,7 @@
   
   <url>
     <loc>http://com402.kellyannepipe.me/class03/</loc>
-    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

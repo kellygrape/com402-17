@@ -260,9 +260,18 @@
 
 &lt;p&gt;This page will grow as the course goes on, and will be a quick way to reference some of the resources and materials used or mentioned in class.&lt;/p&gt;
 
-&lt;h4 id=&#34;course-tools&#34;&gt;Course Tools&lt;/h4&gt;
+&lt;h4 id=&#34;course-info&#34;&gt;Course Info&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; - A text editor that I recommend using for your web development&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; - A text editor that I recommend using for your web development&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class03/emmet&#34;&gt;Emmet&lt;/a&gt; - About using Emmet for quick coding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;general-development&#34;&gt;General Development&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class03/filenaming&#34;&gt;File Naming &amp;amp; Folder Structure&lt;/a&gt; - Best practices for naming and organizing your files for projects.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&#34;html&#34;&gt;HTML&lt;/h4&gt;
 
