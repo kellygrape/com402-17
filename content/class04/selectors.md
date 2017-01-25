@@ -4,7 +4,7 @@ date = "2017-01-23"
 toc = true
 prev = "/class04/lessonplan"
 next = "/class04/homework"
-weight = 3
+weight = 4
 
 +++
 

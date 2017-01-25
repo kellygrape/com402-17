@@ -26,6 +26,45 @@
     </item>
     
     <item>
+      <title>Lesson Plan</title>
+      <link>http://com402.kellyannepipe.me/class04/lessonplan/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class04/lessonplan/</guid>
+      <description>
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class2.html#/18&#34;&gt;Slides for this Lesson - Part 2 (starting at slide 18)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class3.html&#34;&gt;Slides for this Lesson - Part 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class4.html&#34;&gt;Slides for this Lesson - Part 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We should also review CSS Selectors.&lt;/p&gt;
+
+&lt;h3 id=&#34;before-we-get-started&#34;&gt;Before We Get Started&lt;/h3&gt;
+
+&lt;p&gt;As we go through some of the slides today, we will be taking periodic breaks to code.  I&amp;rsquo;ve set up a sample code file for you.&lt;/p&gt;
+
+&lt;p&gt;Please create a folder in your COM402/classwork folder. I named mine &amp;ldquo;04class&amp;rdquo; but you can name yours whatever you wish.&lt;/p&gt;
+
+&lt;p&gt;Create an index.html in that folder, and use the following gist to get you started.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/kellygrape/96796d5ede3428504253ba0c2ee01c16&#34;&gt;Oscar Nominations Sample HTML&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We will be revisiting this file through a few classes, to practice concepts related to layout and CSS.&lt;/p&gt;
+
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.girldevelopit.com/materials/html-intro&#34;&gt;Girl Develop It HTML/CSS Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://learn.shayhowe.com/html-css/&#34;&gt;Shay Howe HTML/CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CSS Selectors</title>
       <link>http://com402.kellyannepipe.me/class04/selectors/</link>
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
@@ -177,32 +216,6 @@
 &lt;li&gt;&lt;a href=&#34;http://css-tricks.com/crazy-town-selectors/&#34;&gt;Crazy-Town Selectors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/&#34;&gt;Little CSS Stuff Newcomers Get Confused About&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://specificity.keegan.st/&#34;&gt;Interactive Specificity Calculator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lesson Plan</title>
-      <link>http://com402.kellyannepipe.me/class04/lessonplan/</link>
-      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://com402.kellyannepipe.me/class04/lessonplan/</guid>
-      <description>
-
-&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class3.html&#34;&gt;Slides for this Lesson - Part 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-htmlcss/class4.html&#34;&gt;Slides for this Lesson - Part 4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We should also review CSS Selectors.&lt;/p&gt;
-
-&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.girldevelopit.com/materials/html-intro&#34;&gt;Girl Develop It HTML/CSS Curriculum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://learn.shayhowe.com/html-css/&#34;&gt;Shay Howe HTML/CSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
