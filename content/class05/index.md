@@ -1,16 +1,16 @@
 +++
 chapter = true
 prev = "/class04"
-next = "/class06"
+next = "/class05/lessonplan"
 weight = 2
 title = "Friday, January 27, 2017"
-date = "2017-01-06T18:43:51-05:00"
+date = "2017-01-27"
 icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Friday, January 27, 2017
 
-# Some Chapter title
+# Coding Work
 
-Lorem ipsum
+Today we will be working on our projects that are due on Monday.

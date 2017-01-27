@@ -6,22 +6,73 @@
     <description>Recent content in Class05s on COM402 Advanced Web Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2017 18:43:51 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://com402.kellyannepipe.me/class05/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Friday, January 27, 2017</title>
       <link>http://com402.kellyannepipe.me/class05/</link>
-      <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://com402.kellyannepipe.me/class05/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;friday-january-27-2017&#34;&gt;Friday, January 27, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;coding-work&#34;&gt;Coding Work&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Today we will be working on our projects that are due on Monday.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lesson Plan</title>
+      <link>http://com402.kellyannepipe.me/class05/lessonplan/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class05/lessonplan/</guid>
+      <description>
+
+&lt;p&gt;Let&amp;rsquo;s share some resources about Web Design basics.&lt;/p&gt;
+
+&lt;h2 id=&#34;design-for-non-designers&#34;&gt;Design for Non-Designers&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@limedaring/design-for-non-designers-part-1-6559ed93ff91#.u1s8y6lvm&#34;&gt;Design for Non-Designers article&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;tl;dr : &amp;ldquo;Reduce visual clutter&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/lsPrhA_m6ss&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;web-design-in-four-minutes&#34;&gt;Web Design in Four Minutes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s create a new version of the &lt;a href=&#34;https://gist.github.com/kellygrape/a6e7dcbba371d31813c8&#34;&gt;Tortise and the Hare&lt;/a&gt; project from Lesson One.&lt;/li&gt;
+&lt;li&gt;Create a new folder in your &lt;code&gt;classwork&lt;/code&gt; folder.  Call it &lt;code&gt;05class&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create an &lt;code&gt;index.html&lt;/code&gt; and the base structure of a page.&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s walk through &lt;a href=&#34;http://jgthms.com/web-design-in-4-minutes/&#34;&gt;this article&lt;/a&gt; together and work on making our website nice and readable.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class05/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class05/homework/</guid>
+      <description>
+
+&lt;h2 id=&#34;due-monday-january-30&#34;&gt;Due Monday, January 30&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Codepen Assignment (assigned on &lt;a href=&#34;http://com402.kellyannepipe.me/class03/homework&#34;&gt;Monday&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
