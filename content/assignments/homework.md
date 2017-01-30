@@ -18,7 +18,7 @@ weight = 1
 |  Monday, Jan 23     |   Readings  | [January 20, 2017](/class02/homework/)  |
 |  Monday, Jan 23     |   Get a domain name  | [January 20, 2017](/class02/homework/)  |
 |  Monday, Jan 30 | Codepen Assignment | [January 23, 2017](/class03/homework/) |
-
+|  Wednesday, Feb 1    |   Readings  | [January 30, 2017](/class06/homework/)  |
 
 
 {{% /fancytable %}}
