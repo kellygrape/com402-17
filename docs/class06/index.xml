@@ -17,11 +17,160 @@
       <guid>http://com402.kellyannepipe.me/class06/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;monday-january-30&#34;&gt;Monday, January 30&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;advanced-css-techniques-layout&#34;&gt;Advanced CSS Techniques - Layout&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Today we will be brushing up on CSS layout techniques.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lesson Plan</title>
+      <link>http://com402.kellyannepipe.me/class06/lessonplan/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class06/lessonplan/</guid>
+      <description>
+
+&lt;p&gt;We are going to continue working through the coding lesson from Friday.&lt;/p&gt;
+
+&lt;h2 id=&#34;web-design-in-four-minutes&#34;&gt;Web Design in Four Minutes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s create a new version of the &lt;a href=&#34;https://gist.github.com/kellygrape/a6e7dcbba371d31813c8&#34;&gt;Tortise and the Hare&lt;/a&gt; project from Lesson One.&lt;/li&gt;
+&lt;li&gt;Create a new folder in your &lt;code&gt;classwork&lt;/code&gt; folder.  Call it &lt;code&gt;05class&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create an &lt;code&gt;index.html&lt;/code&gt; and the base structure of a page.&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s walk through &lt;a href=&#34;http://jgthms.com/web-design-in-4-minutes/&#34;&gt;this article&lt;/a&gt; together and work on making our website nice and readable.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Resets</title>
+      <link>http://com402.kellyannepipe.me/class06/resets/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class06/resets/</guid>
+      <description>
+
+&lt;h3 id=&#34;css-resets&#34;&gt;CSS Resets&lt;/h3&gt;
+
+&lt;p&gt;Browsers like to apply their own basic styling to HTML elements.  For example, your browser will likely give your H1 tags a larger font size than your H2 tags.  UL list items will have bullets and be intended.&lt;/p&gt;
+
+&lt;p&gt;This can be desirable, and allows you to have a launching point when setting up your own styling.  However, one challenge is that elements are not always styled in the same way in different browsers.  Browsers have small inconsistencies when styling elements, and these inconsistencies can cause issues when viewing your pages in different browsers.&lt;/p&gt;
+
+&lt;p&gt;Web designers and developers will often utilize a &lt;strong&gt;CSS Reset&lt;/strong&gt; to make browsers behave more consistently.  A CSS Reset is a small file that someone (or a group of people) has developed over time that will target browser inconsistencies and even them out, so that your CSS styles will look more similar on different browsers.&lt;/p&gt;
+
+&lt;p&gt;The CSS Reset I prefer to use is called &lt;a href=&#34;http://necolas.github.io/normalize.css/&#34;&gt;normalize.css&lt;/a&gt;.  Normalize is nice because it does not strip away styling (some resets will strip all styling, for instance - making &lt;code&gt;strong&lt;/code&gt; and &lt;code&gt;em&lt;/code&gt; tags look like normal text).  To use Normalize, you will need to download it from the Normalize website, and then include the CSS file &lt;strong&gt;before&lt;/strong&gt; any other stylesheets in your &lt;code&gt;header&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;more-information&#34;&gt;More Information&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cssreset.com/what-is-a-css-reset/&#34;&gt;What is a CSS Reset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Layout with Floats</title>
+      <link>http://com402.kellyannepipe.me/class06/floats/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class06/floats/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Utilizing floats&lt;/li&gt;
+&lt;li&gt;Clearfix - I like to use &lt;a href=&#34;http://nicolasgallagher.com/micro-clearfix-hack/&#34;&gt;Nicholas Gallagher&amp;rsquo;s Micro-clearfix&lt;/a&gt;.  Copy and paste the following code into your CSS file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: &amp;quot; &amp;quot;; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Responsive Design Intro</title>
+      <link>http://com402.kellyannepipe.me/class06/responsive/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class06/responsive/</guid>
+      <description>
+
+&lt;h3 id=&#34;responsive-design&#34;&gt;Responsive Design&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is responsive design?&lt;/li&gt;
+&lt;li&gt;What are some common design patterns?&lt;/li&gt;
+&lt;li&gt;How can we accomplish responsive layouts?
+
+&lt;ul&gt;
+&lt;li&gt;think of everything as blocks&lt;/li&gt;
+&lt;li&gt;responsive design patterns&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/set-the-viewport&#34;&gt;Google Web Basics about Responsive Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://webdesign.maratz.com/lab/responsivetypography/realtime/&#34;&gt;A Different Way to consider responsiveness&lt;/a&gt; (turn on camera and demonstrate responsive text!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class06/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class06/homework/</guid>
+      <description>
+
+&lt;h2 id=&#34;due-february-1-2017&#34;&gt;Due February 1, 2017&lt;/h2&gt;
+
+&lt;h3 id=&#34;readings&#34;&gt;Readings&lt;/h3&gt;
+
+&lt;p&gt;Check out the &lt;a href=&#34;http://blog.froont.com/9-basic-principles-of-responsive-web-design/&#34;&gt;9 basic principles of responsive web design&lt;/a&gt; - this is short and has lots of graphics.  Do you recognize some of these responsive design patterns?  You should be familiar with the difference between &lt;strong&gt;Relative and Static units&lt;/strong&gt;, have a familiarity with &lt;strong&gt;what breakpoints are&lt;/strong&gt;, and have a concept of what adding a wrapper with a &lt;strong&gt;max width&lt;/strong&gt; will do to your content.&lt;/p&gt;
+
+&lt;p&gt;Read the following from Lesson 15 &amp;amp; 22 in &lt;a href=&#34;https://hackdesign.org/&#34;&gt;Hack Design&lt;/a&gt;.  These readings will help you to recognize mobile design patterns, and help you review what we learned in today&amp;rsquo;s class.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://alistapart.com/article/responsive-web-design&#34;&gt;Responsive Web Design by Ethan Marcotte&lt;/a&gt; (I know, you&amp;rsquo;ve read it before!  Just wanted to remind you it exists.  Do you understand anything about this article more now than you did before?  How has your understanding of this topic changed?)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bradfrost.com/blog/web/responsive-nav-patterns/&#34;&gt;Responsive Navigation Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lukew.com/ff/entry.asp?1514&#34;&gt;Multi-Device Layout Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mobile-patterns.com/&#34;&gt;Mobile Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;due-monday-february-13-2017&#34;&gt;Due Monday, February 13, 2017&lt;/h2&gt;
+
+&lt;h3 id=&#34;project-1-assignments-project1&#34;&gt;&lt;a href=&#34;assignments/project1&#34;&gt;Project #1&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Project #1 is worth 20% of your final grade.&lt;/p&gt;
 </description>
     </item>
     

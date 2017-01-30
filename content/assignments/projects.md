@@ -15,7 +15,7 @@ weight = 1
 
 | Due Date | Short Description of Task | Link to Original Assignment |
 |---------------------|------|------|
-|      |   Project #1   |   |
+|   Monday, February 13, 2017   |   Project #1   |  [Project #1 Assignment](/assignments/project1) |
 |      |   Project #2   |   |
 |      |   Project #3   |   |
 | | Final Project  |  |

@@ -25,5 +25,40 @@
 </description>
     </item>
     
+    <item>
+      <title>CSS Grids</title>
+      <link>http://com402.kellyannepipe.me/class07/grids/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class07/grids/</guid>
+      <description>
+
+&lt;h3 id=&#34;grids-and-css&#34;&gt;Grids and CSS&lt;/h3&gt;
+
+&lt;p&gt;This lesson will introduce you to using a grid system for positioning content.  We have already done this in previous lessons - remember the activity we did in lesson 17 (&lt;a href=&#34;http://com402.kellyannepipe.me/lessons/2014-10-03-advancedhtmlcss.html&#34;&gt;layout activity&lt;/a&gt;) - using columns to lay out our content and creating sidebars and main content areas.&lt;/p&gt;
+
+&lt;p&gt;To design with a grid, you need to consider that your content can be broken up into rows and columns.  Every row can have any number of columns, but it looks nice if your columns are of predictable width.&lt;/p&gt;
+
+&lt;p&gt;** More Information **&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.thegridsystem.org/&#34;&gt;http://www.thegridsystem.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jordanlev.github.io/grid/&#34;&gt;http://jordanlev.github.io/grid/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;grid-systems&#34;&gt;Grid Systems&lt;/h3&gt;
+
+&lt;p&gt;There are probably over a hundred grid systems out there. Here are some that I have used and liked.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://960.gs/&#34;&gt;960 Grid System&lt;/a&gt; (Note - this is NOT responsive)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.getskeleton.com/&#34;&gt;Skeleton Grid&lt;/a&gt; (This is one of the simplest frameworks - and one of the first responsive grid systems I encountered!)&lt;/li&gt;
+&lt;li&gt;[Base CSS]() (another framework, a bit more complicated to get set up but really simple code-wise)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://unsemantic.com/&#34;&gt;Unsemantic Grid&lt;/a&gt; (The successor to 960 grid).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cobyism.com/gridism/&#34;&gt;Gridism&lt;/a&gt; (Very different, but simple!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

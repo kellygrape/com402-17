@@ -2,6 +2,12 @@
 .homework-table{
   font-size: .85rem;
 }
+.reference-note{
+  font-size:.85em;
+  background-color:#efefef;
+  padding:2px;
+  font-style: italic;
+}
 
 /* Table of contents */
 
