@@ -67,7 +67,7 @@ For example, you may choose to do a page about your 16 favorite hockey players o
 **Examples**
 
 - [Ethan Marcotte's 'Victors & Villains'](http://alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html)
-- [A basic, bare-bones example I've created](../media/project1/index.html)
+- [A basic, bare-bones example I've created](/project1sample/index.html)
 
 You should include some CSS transforms and transitions on your page.  Each piece of content should have two transforms or transitions (scaling bigger and rotating; scaling smaller and fading out).  The transitions or transforms should occur when the user hovers over the images.
 

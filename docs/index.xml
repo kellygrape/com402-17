@@ -118,6 +118,12 @@
 &lt;td&gt;Readings&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class06/homework/&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Friday, Feb 3&lt;/td&gt;
+&lt;td&gt;HTML5BP Assignment&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/class07/homework/&#34;&gt;Feb 1, 2017&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -202,7 +208,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html&#34;&gt;Ethan Marcotte&amp;rsquo;s &amp;lsquo;Victors &amp;amp; Villains&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../media/project1/index.html&#34;&gt;A basic, bare-bones example I&amp;rsquo;ve created&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/project1sample/index.html&#34;&gt;A basic, bare-bones example I&amp;rsquo;ve created&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You should include some CSS transforms and transitions on your page.  Each piece of content should have two transforms or transitions (scaling bigger and rotating; scaling smaller and fading out).  The transitions or transforms should occur when the user hovers over the images.&lt;/p&gt;

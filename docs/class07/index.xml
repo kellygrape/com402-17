@@ -17,11 +17,78 @@
       <guid>http://com402.kellyannepipe.me/class07/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;february-1-2017&#34;&gt;February 1, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;grids-and-queries-and-html5bp&#34;&gt;Grids and Queries and HTML5BP&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://css-tricks.com/international-box-sizing-awareness-day/&#34;&gt;Happy Internatational Box Sizing Awareness Day!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Media Queries</title>
+      <link>http://com402.kellyannepipe.me/class07/mediaqueries/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class07/mediaqueries/</guid>
+      <description>
+
+&lt;p&gt;Media Queries are a feature in CSS that allow you to specify when a certain rule (or set of rules) will be applied.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// normal style
+#header-image {
+    background-repeat: no-repeat;
+    background-image:url(&#39;image.gif&#39;);
+}
+
+// show a larger image when you&#39;re on a big screen
+@media screen and (min-width: 1200px) {
+    #header-image {
+        background-image:url(&#39;large-image.gif&#39;);
+    }
+}
+
+// remove header image when printing.
+@media print {
+    #header-image {
+        display: none;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Media queries start with &lt;code&gt;@media&lt;/code&gt;, followed by a condition or set of conditions.  When the condition (or conditions) are true, the CSS inside of the media query will be triggered to apply.&lt;/p&gt;
+
+&lt;p&gt;The condition line ends with a {, and CSS rules are written (as usual) after the open curly brace.  Don&amp;rsquo;t forget to close the curly brace!  You will end up with two closed curly braces } at the end of your media query - one for the last CSS rule, and one for the media query itself.&lt;/p&gt;
+
+&lt;p&gt;There are more conditions than I can list here, but if you are interested you can read more about the options on &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries&#34;&gt;Mozilla&amp;rsquo;s guide to media queries&lt;/a&gt; (Mozilla has a great CSS resource guide in general!).&lt;/p&gt;
+
+&lt;p&gt;The basic conditions you will see are:&lt;/p&gt;
+
+&lt;h4 id=&#34;media-types&#34;&gt;Media Types&lt;/h4&gt;
+
+&lt;p&gt;There are more than 10 media types, but the most commonly used ones are :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;screen (media type, generally refers to things 
+        viewed on a screen, including mobile devices)
+   
+print (media type, generally refers to printed documents.  
+      This is how your page will look when printed!)
+   
+all (all of the media types combined - use this to apply 
+     to both screen and print!)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;measurements&#34;&gt;Measurements&lt;/h4&gt;
+
+&lt;p&gt;Measurements allow you to get the width of the window (or the screen, if the window takes up the whole viewport, like on a phone).  Measurements can be done using any of the valid web measurements - most commonly pixels (px), but could be em or rem.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;min-width
+max-width
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;logical-operators-in-media-queries&#34;&gt;Logical Operators in Media Queries&lt;/h4&gt;
+
+&lt;p&gt;Conditions in media queries can be combined using logical operators.  There are three different logical operators available for use within media queries, including &lt;code&gt;and&lt;/code&gt;, &lt;code&gt;not&lt;/code&gt;, and &lt;code&gt;only&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -35,16 +102,7 @@
 
 &lt;h3 id=&#34;grids-and-css&#34;&gt;Grids and CSS&lt;/h3&gt;
 
-&lt;p&gt;This lesson will introduce you to using a grid system for positioning content.  We have already done this in previous lessons - remember the activity we did in lesson 17 (&lt;a href=&#34;http://com402.kellyannepipe.me/lessons/2014-10-03-advancedhtmlcss.html&#34;&gt;layout activity&lt;/a&gt;) - using columns to lay out our content and creating sidebars and main content areas.&lt;/p&gt;
-
 &lt;p&gt;To design with a grid, you need to consider that your content can be broken up into rows and columns.  Every row can have any number of columns, but it looks nice if your columns are of predictable width.&lt;/p&gt;
-
-&lt;p&gt;** More Information **&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.thegridsystem.org/&#34;&gt;http://www.thegridsystem.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jordanlev.github.io/grid/&#34;&gt;http://jordanlev.github.io/grid/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h3 id=&#34;grid-systems&#34;&gt;Grid Systems&lt;/h3&gt;
 
@@ -53,10 +111,88 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://960.gs/&#34;&gt;960 Grid System&lt;/a&gt; (Note - this is NOT responsive)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.getskeleton.com/&#34;&gt;Skeleton Grid&lt;/a&gt; (This is one of the simplest frameworks - and one of the first responsive grid systems I encountered!)&lt;/li&gt;
-&lt;li&gt;[Base CSS]() (another framework, a bit more complicated to get set up but really simple code-wise)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://basscss.com/&#34;&gt;Base CSS&lt;/a&gt; (another framework, a bit more complicated to get set up but really simple code-wise)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://unsemantic.com/&#34;&gt;Unsemantic Grid&lt;/a&gt; (The successor to 960 grid).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cobyism.com/gridism/&#34;&gt;Gridism&lt;/a&gt; (Very different, but simple!)&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML5BP</title>
+      <link>http://com402.kellyannepipe.me/class07/html5bp/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class07/html5bp/</guid>
+      <description>
+
+&lt;h3 id=&#34;html5-boilerplate&#34;&gt;HTML5 Boilerplate&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML5 Boilerplate&lt;/strong&gt; is &amp;lsquo;the web&amp;rsquo;s most popular front-end template&amp;rsquo;.  Using HTML5BP to start web projects can give you a quick starting point and a base on which to build valid websites.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://html5boilerplate.com/&#34;&gt;HTML5 Boilerplate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can download HTML5BP directly from this website, but I like to create a custom build using the &lt;a href=&#34;http://www.initializr.com/&#34;&gt;Initializr tool&lt;/a&gt; (linked from the main HTML5BP site).&lt;/p&gt;
+
+&lt;p&gt;Visit the &lt;a href=&#34;http://www.initializr.com/&#34;&gt;Initializr tool&lt;/a&gt;, then choose the following settings (you can choose different ones for other projects or to experiment, but for right now use the settings I have selected).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://com402.kellyannepipe.me/course-files/html5pbsettings.png&#34; alt=&#34;html5pbsettings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will want to unzip this into a &lt;strong&gt;new folder&lt;/strong&gt; in your &lt;strong&gt;document root&lt;/strong&gt;.  You can call this folder &lt;strong&gt;boilerplate&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class07/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class07/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;due-friday-february-3&#34;&gt;Due Friday, February 3&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Explore the HTML5 Boilerplate template you have downloaded&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Change the color scheme&lt;/li&gt;
+&lt;li&gt;Change the text&lt;/li&gt;
+&lt;li&gt;Add a logo instead of the text&lt;/li&gt;
+&lt;li&gt;Add Google Web Fonts&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Experiment with the provided media queries&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;can you change the header color when the browser is over 700px?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have had a chance to experiment with HTML5BP, &lt;strong&gt;use what you have created to complete the following&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a single-page website&lt;/li&gt;
+&lt;li&gt;Your website should have a homepage and two sub-pages&lt;/li&gt;
+&lt;li&gt;Your &lt;strong&gt;sidebar&lt;/strong&gt; (&lt;code&gt;&amp;lt;aside&amp;gt;&lt;/code&gt;) should include your &lt;strong&gt;Name&lt;/strong&gt; and a short &amp;ldquo;About Me&amp;rdquo; (try to get it under 140 characters - think along the lines of a twitter bio, like &lt;a href=&#34;https://twitter.com/saintjosephs&#34;&gt;@saintjosephs&lt;/a&gt; &lt;em&gt;&amp;ldquo;The official account of SJU, Philadelphia&amp;rsquo;s Jesuit University. Founded in 1851. live greater. that&amp;rsquo;s the magis.&amp;rdquo;&lt;/em&gt;).  If you want to include an image, feel free to do so.&lt;/li&gt;
+&lt;li&gt;Your &lt;strong&gt;menu&lt;/strong&gt; should link to your homepage and to this class website&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You should include two &lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt;s, each with your response to two &lt;a href=&#34;http://uxmyths.com/&#34;&gt;UX Myths&lt;/a&gt;.  Read at least the titles of each one.  Choose two and write a 150-300 word response for each one.  My suggestions are below, but you can choose whatever you would like.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/654070104/myth-design-is-about-making-a-website-look-good&#34;&gt;Myth #4: Design is about making a website look good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/712377283/myth-9-design-has-to-be-original&#34;&gt;Myth #9: Design has to be original&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/717779908/myth-the-homepage-is-your-most-important-page&#34;&gt;Myth #17: The homepage is your most important page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/718187422/myth-you-dont-need-the-content-to-design-a-website&#34;&gt;Myth #19: You don’t need the content to design a website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/2059998441/myth-28-white-space-is-wasted-space&#34;&gt;Myth #28: White space is wasted space&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;delivery&#34;&gt;Delivery&lt;/h3&gt;
+
+&lt;p&gt;Email a zip file to me.&lt;/p&gt;
 </description>
     </item>
     

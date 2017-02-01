@@ -252,17 +252,17 @@
   </url>
   
   <url>
-    <loc>http://com402.kellyannepipe.me/class07/grids/</loc>
-    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://com402.kellyannepipe.me/class05/lessonplan/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://com402.kellyannepipe.me/class06/lessonplan/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class07/mediaqueries/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -284,6 +284,11 @@
   <url>
     <loc>http://com402.kellyannepipe.me/class-info/reference/</loc>
     <lastmod>2017-01-06T18:41:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class07/grids/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -317,6 +322,11 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class07/html5bp/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class06/responsive/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
@@ -338,6 +348,11 @@
   
   <url>
     <loc>http://com402.kellyannepipe.me/class06/homework/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class07/homework/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
