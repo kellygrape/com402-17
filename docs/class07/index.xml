@@ -173,7 +173,6 @@ max-width
 
 &lt;ul&gt;
 &lt;li&gt;Create a single-page website&lt;/li&gt;
-&lt;li&gt;Your website should have a homepage and two sub-pages&lt;/li&gt;
 &lt;li&gt;Your &lt;strong&gt;sidebar&lt;/strong&gt; (&lt;code&gt;&amp;lt;aside&amp;gt;&lt;/code&gt;) should include your &lt;strong&gt;Name&lt;/strong&gt; and a short &amp;ldquo;About Me&amp;rdquo; (try to get it under 140 characters - think along the lines of a twitter bio, like &lt;a href=&#34;https://twitter.com/saintjosephs&#34;&gt;@saintjosephs&lt;/a&gt; &lt;em&gt;&amp;ldquo;The official account of SJU, Philadelphia&amp;rsquo;s Jesuit University. Founded in 1851. live greater. that&amp;rsquo;s the magis.&amp;rdquo;&lt;/em&gt;).  If you want to include an image, feel free to do so.&lt;/li&gt;
 &lt;li&gt;Your &lt;strong&gt;menu&lt;/strong&gt; should link to your homepage and to this class website&lt;/li&gt;
 

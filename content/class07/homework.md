@@ -24,7 +24,6 @@ weight = 7
 Once you have had a chance to experiment with HTML5BP, **use what you have created to complete the following**.
 
 - Create a single-page website
-- Your website should have a homepage and two sub-pages
 - Your **sidebar** (`<aside>`) should include your **Name** and a short "About Me" (try to get it under 140 characters - think along the lines of a twitter bio, like [@saintjosephs](https://twitter.com/saintjosephs) *"The official account of SJU, Philadelphia's Jesuit University. Founded in 1851. live greater. that's the magis."*).  If you want to include an image, feel free to do so.
 - Your **menu** should link to your homepage and to this class website
 - You should include two `<article>`s, each with your response to two [UX Myths](http://uxmyths.com/).  Read at least the titles of each one.  Choose two and write a 150-300 word response for each one.  My suggestions are below, but you can choose whatever you would like.
