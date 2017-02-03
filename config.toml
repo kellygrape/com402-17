@@ -41,7 +41,7 @@ publishDir = "docs"
            ## "class11",
            ## "class10",
            ## "class09",
-           ## "class08",
+            "class08",
             "class07",
             "class06",
             "class05",

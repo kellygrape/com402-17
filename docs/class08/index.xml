@@ -17,11 +17,195 @@
       <guid>http://com402.kellyannepipe.me/class08/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;friday-february-3-2017&#34;&gt;Friday, February 3, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;css-tranforms-transitions-and-animation&#34;&gt;CSS Tranforms, Transitions, and Animation&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/GeuNIOuIEDA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Concept Check</title>
+      <link>http://com402.kellyannepipe.me/class08/conceptcheck/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class08/conceptcheck/</guid>
+      <description>
+
+&lt;h3 id=&#34;core-concept-check&#34;&gt;Core Concept Check&lt;/h3&gt;
+
+&lt;p&gt;An HTML Element is written like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;awesome-div&amp;quot;&amp;gt;
+  This is my div!
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Some CSS that could target that element could be written like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;div {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OR like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.awesome-div {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can use pseudo-classes to change the styling of almost any HTML element.  One of the most common ways to alter CSS is when &lt;strong&gt;hovering&lt;/strong&gt; on that element.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.awesome-div:hover{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s play around with this on CodePen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codepen.io/kellygrape/pen/LEemKV?editors=110&#34;&gt;See this example on CodePen&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Transforms</title>
+      <link>http://com402.kellyannepipe.me/class08/transforms/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class08/transforms/</guid>
+      <description>
+
+&lt;h3 id=&#34;css-transforms&#34;&gt;CSS Transforms&lt;/h3&gt;
+
+&lt;p&gt;You can use CSS to &lt;em&gt;transform&lt;/em&gt; an element.  We are used to changing element properties, such as &lt;code&gt;color&lt;/code&gt; or &lt;code&gt;width&lt;/code&gt; or &lt;code&gt;border&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;transform&lt;/code&gt; property allows you to visually manipulate an element by skewing, rotating, translating, or scaling.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;scale()&lt;/code&gt; - making an element bigger or smaller (unlike changing the width and height, this causes ALL things inside the element to scale - including the text inside it and the padding)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skewX()&lt;/code&gt; and &lt;code&gt;skewY()&lt;/code&gt; - tilting an element&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;translate()&lt;/code&gt; - affects the positioning of an element - moving it up or down, left or right&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rotate()&lt;/code&gt; - rotates the element clockwise (or counter-clockwise) from its current position&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is also &lt;code&gt;matrix()&lt;/code&gt; and &lt;code&gt;perspective()&lt;/code&gt;, which we won&amp;rsquo;t be touching on.  Matrix is a way to combine all transforms into one, and really isn&amp;rsquo;t easy to write out.  Perspective is used in 3D transforms.&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://learn.shayhowe.com/advanced-html-css/css-transforms/&#34;&gt;CSS Transforms Guide&lt;/a&gt;
+&lt;a href=&#34;https://css-tricks.com/almanac/properties/t/transform/&#34;&gt;CSS Tricks about Transforms&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Transitions</title>
+      <link>http://com402.kellyannepipe.me/class08/transitions/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class08/transitions/</guid>
+      <description>
+
+&lt;h3 id=&#34;css-transitions&#34;&gt;CSS Transitions&lt;/h3&gt;
+
+&lt;p&gt;When we make changes to the look an element, those changes happen immediately. Given the following CSS &amp;ndash;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  a{
+    color: green;
+    background-color: blue;
+  }
+  a:hover{
+    color: blue;
+    background-color: green;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;any element &lt;code&gt;a&lt;/code&gt; that is hovered will instantly change colors.&lt;/p&gt;
+
+&lt;p&gt;Transitions allow us to slow this change down.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;These transition properties allow elements to change values over a specified duration, animating the property changes, rather than having them occur immediately&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Transition properties are written in the &lt;em&gt;original element&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s take a look at the &lt;a href=&#34;http://learn.shayhowe.com/advanced-html-css/transitions-animations/&#34;&gt;Shay Howe&lt;/a&gt; article about transitions for some examples.&lt;/p&gt;
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://css-tricks.com/almanac/properties/t/transition/&#34;&gt;CSS Tricks&lt;/a&gt;
+&lt;a href=&#34;http://learn.shayhowe.com/advanced-html-css/transitions-animations/&#34;&gt;Shay Howe&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS Animations</title>
+      <link>http://com402.kellyannepipe.me/class08/animations/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class08/animations/</guid>
+      <description>
+
+&lt;h3 id=&#34;css-animations&#34;&gt;CSS Animations&lt;/h3&gt;
+
+&lt;p&gt;Sometimes you want to change the state or look of something over a duration of time.&lt;/p&gt;
+
+&lt;p&gt;CSS Animations allow you to do complex things with CSS.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s continue following the &lt;a href=&#34;http://learn.shayhowe.com/advanced-html-css/transitions-animations/&#34;&gt;Shay Howe&lt;/a&gt; article about animations, and then we will do a little exercise.&lt;/p&gt;
+
+&lt;h3 id=&#34;making-baymax&#34;&gt;Making BayMax&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s walk though this exercise together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cssanimation.rocks/baymax/&#34;&gt;CSS Animation Rocks - Baymax&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class08/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class08/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;p&gt;If we haven&amp;rsquo;t finished the Baymax tutorial, finish it on your own time. &lt;a href=&#34;https://cssanimation.rocks/baymax/&#34;&gt;CSS Animation Rocks - Baymax&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we have learned how to do CSS animations, you should learn WHY and WHEN we should utilize these techniques.  Go back to the start of this lesson, and watch the video I&amp;rsquo;ve linked.  It&amp;rsquo;s only 18m long.&lt;/p&gt;
+
+&lt;p&gt;Also, read &lt;a href=&#34;https://cssanimation.rocks/why-animate/&#34;&gt;Why Animate?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re very interested in learning more about this, I suggest you sign up for the &lt;a href=&#34;https://cssanimation.rocks/courses/animation-101/&#34;&gt;CSS Animation Rocks FREE Course&lt;/a&gt;.  You can also check out the Kirupa &lt;a href=&#34;https://www.kirupa.com/css_animations/index.htm&#34;&gt;Video Series&lt;/a&gt; or the video series from &lt;a href=&#34;https://www.youtube.com/watch?v=8kK-cA99SA0&amp;amp;list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&#34;&gt;DevTips&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;when-is-this-due&#34;&gt;When is this due?&lt;/h3&gt;
+
+&lt;p&gt;No specific due date or requirement to turn any of this in.  That doesn&amp;rsquo;t mean that you shouldn&amp;rsquo;t DO it.  The web development environment is constantly changing and there is &lt;em&gt;always&lt;/em&gt; something new to learn.  Here&amp;rsquo;s a great opportunity to learn something!&lt;/p&gt;
+
+&lt;h3 id=&#34;project-1-is-due-monday-feb-13-don-t-forget&#34;&gt;Project #1 is due Monday, Feb 13.  Don&amp;rsquo;t forget!&lt;/h3&gt;
+
+&lt;!-- https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.udn6zyx5n
+
+
+// https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.udn6zyx5n
+
+// https://daneden.github.io/animate.css/
+
+--&gt;
 </description>
     </item>
     
