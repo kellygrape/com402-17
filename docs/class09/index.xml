@@ -17,11 +17,89 @@
       <guid>http://com402.kellyannepipe.me/class09/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;monday-february-6-2017&#34;&gt;Monday, February 6, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;javascript&#34;&gt;Javascript&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autoprefixer</title>
+      <link>http://com402.kellyannepipe.me/class09/autoprefixer/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class09/autoprefixer/</guid>
+      <description>
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;h3 id=&#34;autoprefixer&#34;&gt;Autoprefixer&lt;/h3&gt;
+
+&lt;p&gt;In the last class, we briefly talked about using vendor prefixes for things like transitions, animations, etc.  Vendor prefixes help us make sure that browsers that are still working on implementing these new features can understand our code.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/autoprefixer/&#34;&gt;About Autoprefixer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are a lot of options for prefixing your CSS.  You can type in all your prefixes yourself (tedious and hard to remember).  Or you can use an online tool such as &lt;a href=&#34;http://pleeease.io/play/&#34;&gt;pleeease&lt;/a&gt; or &lt;a href=&#34;http://css3generator.com/&#34;&gt;CSS3 Generator&lt;/a&gt; to help you set up your transforms and transitions with the prefixes you need.&lt;/p&gt;
+
+&lt;p&gt;You can also install a tool called &lt;em&gt;Autoprefixer&lt;/em&gt; in Atom.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;strong&gt;Command Palette&lt;/strong&gt; to install a package.  Type &lt;code&gt;⌘-⇧-p&lt;/code&gt; (&lt;code&gt;command&lt;/code&gt; or &lt;code&gt;control&lt;/code&gt;, &lt;code&gt;shift&lt;/code&gt;, and &lt;code&gt;p&lt;/code&gt; all at the same time) to open the Command Palette.  Then start typing &lt;code&gt;Install Package&lt;/code&gt; to see the options - you want to go to the &lt;strong&gt;Settings View: Install Packages&lt;/strong&gt; section.&lt;/li&gt;
+&lt;li&gt;Search for &lt;strong&gt;autoprefixer&lt;/strong&gt; and install that package.&lt;/li&gt;
+&lt;li&gt;Create a new CSS file and create some CSS. Try &lt;code&gt;div{ transform:rotate(360deg); }&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open the &lt;strong&gt;Command Palette&lt;/strong&gt; again and search for Autoprefixer.  Hit &lt;code&gt;Enter&lt;/code&gt; to run Autoprefixer on your CSS.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://com402.kellyannepipe.me/class09/javascript/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class09/javascript/</guid>
+      <description>
+
+&lt;h3 id=&#34;javascript-java-jquery&#34;&gt;Javascript, Java, jQuery&lt;/h3&gt;
+
+&lt;p&gt;What is the difference between Javascript and jQuery?  How do they differ from Java?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.udemy.com/jquery-vs-javascript/&#34;&gt;JQuery vs. JavaScript: What’s the Difference Anyway?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.mindscapesolutions.com/2012/03/15/java-javascript-and-jquery-or-whats-with-all-the-js/&#34;&gt;Java, JavaScript and jQuery (Or What’s With All the J’s?)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript Slides</title>
+      <link>http://com402.kellyannepipe.me/class09/javascriptslides/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class09/javascriptslides/</guid>
+      <description>
+
+&lt;h3 id=&#34;intro-to-javascript&#34;&gt;Intro to Javascript&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-intro-js-master/class1.html&#34;&gt;Slides from GirlDevelopIt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class09/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class09/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/assignments/project2&#34;&gt;Project #2 Assigned&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
