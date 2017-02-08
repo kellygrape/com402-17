@@ -17,11 +17,41 @@
       <guid>http://com402.kellyannepipe.me/class10/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;wednesday-february-8-2017&#34;&gt;Wednesday, February 8, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;javascript-continued&#34;&gt;Javascript (continued)&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript Exercise</title>
+      <link>http://com402.kellyannepipe.me/class10/jsexercise/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class10/jsexercise/</guid>
+      <description>
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;h3 id=&#34;learning-to-program&#34;&gt;Learning to Program&lt;/h3&gt;
+
+&lt;p&gt;I am providing a handout with some basic JS functions.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s consider these functions, and break down how we might use them to make the &lt;a href=&#34;http://com402.kellyannepipe.me/drumkit&#34;&gt;Drum Kit&lt;/a&gt; work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/JavascriptCommands.pdf&#34;&gt;Handout as PDF&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class10/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class10/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;p&gt;Work on Project 1 and Project 2.&lt;/p&gt;
 </description>
     </item>
     
