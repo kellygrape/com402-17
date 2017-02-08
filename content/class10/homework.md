@@ -21,6 +21,8 @@ Additionally, please read the following webpages about JS -
 
 (15m) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics
 
+*This second article is quite lengthy and technical. If you feel yourself getting overwhelmed, it's ok to move on to the video.  Keep this in mind though - there are different ways that JS handles variables, and different kinds of data types that you can work with in JS*
+
 (45m) Also watch (and following along with) -- https://www.youtube.com/watch?v=zPHerhks2Vg -- the video itself is only 30 minutes, but you may need to pause at parts while you are following along with your code.
 
 
