@@ -17,11 +17,19 @@
       <guid>http://com402.kellyannepipe.me/class11/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;february-10-2017&#34;&gt;February 10, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;no-class&#34;&gt;No Class&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Class has been cancelled for today.  Instead, work on the following assignment:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Visit &lt;a href=&#34;https://gist.github.com/kellygrape/018e30e5897fda333701f7ee14575320&#34;&gt;this gist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Create a folder in your &amp;ldquo;COM402/assignments&amp;rdquo; folder.  Name it &amp;ldquo;easytodo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Create an index.html using the content from the gist.&lt;/li&gt;
+&lt;li&gt;All instructions are in the gist&lt;/li&gt;
+&lt;li&gt;All code should be your own.  You should use only javascript.  No jquery or other plugins.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

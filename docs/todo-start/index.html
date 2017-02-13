@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javascript Test</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .todo .fa-check{
+      color: white;
+    }
+    .todo.active .fa-check{
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>To Do List</h1>
+  </header>
+  <button class="addItemButton">
+    Add a New Item
+  </button>
+  <ul class="the-list">
+    <li class="todo active"><i class="fa fa-check"></i> Milk</li>
+    <li class="todo"><i class="fa fa-check"></i> Eggs</li>
+    <li class="todo"><i class="fa fa-check"></i> Butter</li>
+  </ul>
+
+  <script>
+    var theList = document.querySelector('.the-list');
+    var listItems  = document.querySelectorAll('.todo');
+    var addItemButton = document.querySelector('.addItemButton');
+
+    theList.addEventListener('click',activateItem);
+    addItemButton.addEventListener('click',addItem);
+
+    // function addItem()
+    //    prompts for user input
+    //    adds a list item to the to-do list with the user input as the text
+    function addItem(){
+      var userInput = prompt("Add an item");
+      theList.innerHTML += '<li class="todo"><i class="fa fa-check"></i> '+userInput+'</li>';
+    }
+
+    // function activateItem(e)
+    //    e = the event
+    //    this function is called with an addEventListener
+    //    the eventListener is attached to the parent list element (the UL)
+    //    because as part of this app, we need to consider event delegation and
+    //    generated items -- doing a standard "addEventListener" on each
+    //    item at the beginning will cause any items added by the user at a later
+    //    time to not have the listener added.
+    //
+    //    see if the thing that is clicked on (the e.target) is a list item
+    //    or if its parent is a list item (if they click on the check mark)
+    //    if either of these things are true
+    //    add / remove the appropriate classes
+    //    adds a list item to the to-do list with the user input as the text
+    function activateItem(e){
+      if(e.target.nodeName === 'LI'){
+        e.target.classList.toggle('active');
+      } else if(e.target.parentNode.nodeName=== 'LI'){
+        e.target.classList.toggle('active');
+      }
+    }
+  </script>
+</body>
+</html>

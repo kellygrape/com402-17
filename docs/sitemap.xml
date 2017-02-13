@@ -17,6 +17,11 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class12/</loc>
+    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class09/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
@@ -133,11 +138,6 @@
   
   <url>
     <loc>http://com402.kellyannepipe.me/class30/</loc>
-    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://com402.kellyannepipe.me/class12/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
   
@@ -322,12 +322,22 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class12/github/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class10/jsexercise/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://com402.kellyannepipe.me/class09/javascriptslides/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class12/todo/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -413,6 +423,11 @@
   
   <url>
     <loc>http://com402.kellyannepipe.me/class10/homework/</loc>
+    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class12/homework/</loc>
     <lastmod>2017-01-27T00:00:00+00:00</lastmod>
   </url>
   

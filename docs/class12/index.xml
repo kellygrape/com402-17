@@ -17,11 +17,92 @@
       <guid>http://com402.kellyannepipe.me/class12/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;february-13-2017&#34;&gt;February 13, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;more-javascript&#34;&gt;(more) Javascript!&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project #1 Due&lt;/li&gt;
+&lt;li&gt;Github Review&lt;/li&gt;
+&lt;li&gt;Student demos of simple to-do app&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://com402.kellyannepipe.me/class12/github/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class12/github/</guid>
+      <description>
+
+&lt;h3 id=&#34;github&#34;&gt;Github&lt;/h3&gt;
+
+&lt;p&gt;You should have uploaded your project to GitHub.&lt;/p&gt;
+
+&lt;p&gt;I recommend using the Github Desktop app for managing your projects in Github.&lt;/p&gt;
+
+&lt;p&gt;I will be working individually at the beginning of class with anyone that needs a little refresher on GitHub.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;https://guides.github.com/introduction/getting-your-project-on-github/&#34;&gt;read this guide&lt;/a&gt; if you just need a little bit of guidance or a refresher.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revisiting Javascript</title>
+      <link>http://com402.kellyannepipe.me/class12/todo/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class12/todo/</guid>
+      <description>
+
+&lt;h3 id=&#34;the-to-do-app&#34;&gt;The To-Do App&lt;/h3&gt;
+
+&lt;p&gt;Over the weekend you worked on a small to-do application.&lt;/p&gt;
+
+&lt;p&gt;Feel free to save you work somewhere, but I&amp;rsquo;d like to make sure that we are going to continue working on the same codebase.&lt;/p&gt;
+
+&lt;p&gt;Please visit &lt;a href=&#34;http://com402.kellyannepipe.me/todo-start&#34;&gt;my completed version of the app&lt;/a&gt; and view the source code.  Use the source code to create a new (or overwrite your current version of) index.html file.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s walk though this together.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class12/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class12/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;homework-all-readings-due-on-wednesday-february-15&#34;&gt;Homework (all readings due on Wednesday, February 15)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://signalvnoise.com/posts/1128-learning-from-bad-ui&#34;&gt;Learning from &amp;ldquo;Bad&amp;rdquo; UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals&#34;&gt;#01, #02, and #03 from UX Crash Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;http://alistapart.com/article/design-for-real-life-excerpt&#34;&gt;Design for Real Life&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;readings-about-ux-in-real-life&#34;&gt;Readings about UX in real life&lt;/h4&gt;
+
+&lt;p&gt;These are all relative short reads.  Please read them.  &lt;strong&gt;Consider some experiences in your own life that could be described as UX Fails or UX Wins.  Come prepared to discuss in class&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://medium.com/@dsmithco/mcdonald-s-new-menu-ux-wins-fails-8d1a9cc2d275#.pdw4ndtb2&#34;&gt;McDonald’s New Menu — UX Fails (and 1 win)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://medium.com/@joshuatyler/hilarious-ux-fail-at-the-california-academy-of-sciences-42a97a01deb0#.rxqkr5ng3&#34;&gt;Hilarious UX fail at the California Academy of Sciences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://medium.com/@aseoconnor/uber-s-ux-fail-b267ff82fa56#.5rs7g2ixw&#34;&gt;Uber’s UX Fail.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And a final article about &lt;a href=&#34;https://medium.com/@WebdesignerDepot/prevent-ux-fails-with-smart-design-5e0190168e22#.q64wfb25k&#34;&gt;Prevent UX fails with smart design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;loving-this-check-out-more-not-for-homework-but-just-for-your-reference&#34;&gt;Loving this? Check out more &amp;ndash; not for homework, but just for your reference!&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uxplanet.org/the-ultimate-ux-design-reading-list-db767977c855#.ajp7zpf3k&#34;&gt;A comprehensive reading list for young designers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://alistapart.com/topic/user-experience&#34;&gt;A List Apart&amp;rsquo;s UX Category&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
