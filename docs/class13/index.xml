@@ -17,11 +17,220 @@
       <guid>http://com402.kellyannepipe.me/class13/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;wednesday-february-15-2017&#34;&gt;Wednesday, February 15, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;user-experience-part-1&#34;&gt;User Experience Part 1&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Ovj4hFxko7c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>User Experience</title>
+      <link>http://com402.kellyannepipe.me/class13/userexperience/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class13/userexperience/</guid>
+      <description>
+
+&lt;h3 id=&#34;homework-review&#34;&gt;Homework Review&lt;/h3&gt;
+
+&lt;p&gt;Consider some experiences in your own life that could be described as UX Fails or UX Wins.  Come prepared to discuss in class.&lt;/p&gt;
+
+&lt;h3 id=&#34;slide-deck&#34;&gt;Slide Deck&lt;/h3&gt;
+
+&lt;h2 id=&#34;user-experience-foundations&#34;&gt;User Experience Foundations&lt;/h2&gt;
+
+&lt;p&gt;User Experience (UX) is making each user feel like your website was built for them.&lt;/p&gt;
+
+&lt;p&gt;You need to consider &lt;strong&gt;who&lt;/strong&gt; is your audience and &lt;strong&gt;how&lt;/strong&gt; they behave.&lt;/p&gt;
+
+&lt;h3 id=&#34;user-personas&#34;&gt;User Personas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;who are your users?&lt;/li&gt;
+&lt;li&gt;what are their goals?&lt;/li&gt;
+&lt;li&gt;what concerns might stop them from using your site?
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(More info at &lt;a href=&#34;https://www.usability.gov/how-to-and-tools/methods/personas.html&#34;&gt;usability.gov&lt;/a&gt; and &lt;a href=&#34;https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/&#34;&gt;smashing magazine&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&#34;why-do-people-use-the-web&#34;&gt;Why do people use the web?&lt;/h3&gt;
+
+&lt;p&gt;To get information.  People come to your site with a goal in mind.  Think about some sites you visit and what your goal might be for those sites.&lt;/p&gt;
+
+&lt;p&gt;When a user visits a site, they have likely landed there via a web search or a link rather than by direct traffic.&lt;/p&gt;
+
+&lt;p&gt;Since not all users come to your homepage first, every page should help people orient themselves on your site and work out whether your site has the information they want.&lt;/p&gt;
+
+&lt;p&gt;One reason that people may leave your site is because they can&amp;rsquo;t find what they are looking for.  There are many things that can cause this, including&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using too much jargon&lt;/li&gt;
+&lt;li&gt;Difficult to use navigation&lt;/li&gt;
+&lt;li&gt;Content that is a “wall of text”&lt;/li&gt;
+&lt;li&gt;Annoying advertisements that block content (like &lt;a href=&#34;https://www.forbes.com&#34;&gt;Forbes&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;simple-consistent-and-standard-design&#34;&gt;Simple, Consistent, and Standard Design&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Simple Design&lt;/strong&gt; means&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Images that match your content (smiling people in stock photos are nice, but do they really help to tell you story?)&lt;/li&gt;
+&lt;li&gt;Cutting down on the amount of text&lt;/li&gt;
+&lt;li&gt;Making text easily readable and scannable&lt;/li&gt;
+&lt;li&gt;Matching advertisements to your user base&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Does every element on your page help or hinder your users?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consistent Design&lt;/strong&gt; means &amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have the same response whenever people perform an action&lt;/li&gt;
+&lt;li&gt;Using consistent wording&lt;/li&gt;
+&lt;li&gt;Using consistent design patterns (for buttons, headings, etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“The more users’ expectations prove right, the more they will feel in control of the system and the more they will like it.” – Jakob Nielson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Standard Design&lt;/strong&gt; means &amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using web elements in the same way as other major sites do&lt;/li&gt;
+&lt;li&gt;Avoiding overly “trendy” web designs&lt;/li&gt;
+&lt;li&gt;Following web design best practices&lt;/li&gt;
+&lt;li&gt;Standards can and do change over time&lt;/li&gt;
+&lt;li&gt;You can break standards, but you may lose visitors&lt;/li&gt;
+&lt;li&gt;Different audiences may have different standards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Navigation is an important part of the user experience&lt;/li&gt;
+&lt;li&gt;Navigation components include global navigation, local navigation, utility navigation, breadcrumbs, filters, facets, related links, footers, fat footers, and so on.&lt;/li&gt;
+&lt;li&gt;Navigation can be structured in a variety of ways, depending on the needs of your users
+
+&lt;ul&gt;
+&lt;li&gt;sorted by category&lt;/li&gt;
+&lt;li&gt;sorted by audience&lt;/li&gt;
+&lt;li&gt;sorted by task
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Information Architecture&lt;/strong&gt; is a part of the UX, but is not exactly the same thing as navigation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IA refers to the site&amp;rsquo;s &lt;strong&gt;content and functionality&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;IA describes the underlying organization, structure and nomenclature that define the relationships between a site’s content/functionality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.nngroup.com/articles/ia-vs-navigation/&#34;&gt;Difference between IA and Navigation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.usability.gov/what-and-why/information-architecture.html&#34;&gt;Basics of IA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/&#34;&gt;Complete Beginners Guide to IA&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;additional-reading&#34;&gt;Additional Reading&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://uxmyths.com/post/654026581/myth-all-pages-should-be-accessible-in-3-clicks&#34;&gt;UX Mtyhs - All pages should be accessible in 3 clicks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.interaction-design.org/literature/article/fitts-s-law-the-importance-of-size-and-distance-in-ui-design&#34;&gt;Fitt&amp;rsquo;s Law - The Importance of Size and Distance in UI Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2012/12/fittss-law-and-user-experience/&#34;&gt;When You Shouldn’t Use Fitts’s Law To Measure User Experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/&#34;&gt;Improving Usability with Fitts’ Law&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Javascript</title>
+      <link>http://com402.kellyannepipe.me/class13/simpleJS/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class13/simpleJS/</guid>
+      <description>
+
+&lt;p&gt;Open your web browsers and head to the console.&lt;/p&gt;
+
+&lt;p&gt;Download &lt;a href=&#34;http://com402.kellyannepipe.me/0215.zip&#34;&gt;this zip&lt;/a&gt; folder and unzip it into your &lt;code&gt;classwork&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;objects&#34;&gt;Objects&lt;/h2&gt;
+
+&lt;p&gt;Objects are a data type that let us store a collection of properties and methods.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var objectName = { 
+  propertyName: propertyValue,
+  propertyName: propertyValue,
+  ...
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Objects can be multi-level, and can contain any other types of data, including other objects!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var donaldTrump = {
+  age: 70,
+  occupation: &amp;quot;President&amp;quot;,
+  children: [&amp;quot;Donald, Jr.&amp;quot;, &amp;quot;Ivanka&amp;quot;, &amp;quot;Eric&amp;quot;, &amp;quot;Tiffany&amp;quot;, &amp;quot;Baron&amp;quot;],
+  birthday: {&amp;quot;month&amp;quot;: 6, &amp;quot;day&amp;quot;: 14, year: 1946},
+  favoriteFood: &amp;quot;apples&amp;quot;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Access properties using dot notation or bracket notation (bracket notation is usually used for arrays.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;donaldTrump.occupation;
+// would output &#39;President&#39;
+
+donaldTrump.birthday.month
+// would output &#39;6&#39;
+
+donaldTrump.birthday[day]
+// would output &#39;14&#39;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;changing-objects&#34;&gt;Changing Objects&lt;/h3&gt;
+
+&lt;p&gt;Use dot or bracket notation with the assignment operator to change objects.&lt;/p&gt;
+
+&lt;p&gt;Change existing properties:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;donaldTrump.favoriteFood = &amp;quot;cheetos&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or add new ones&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;donaldTrump.gender = &amp;quot;male&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or delete them&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;delete donaldTrump.favoriteFood;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>http://com402.kellyannepipe.me/class13/homework/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class13/homework/</guid>
+      <description>
+
+&lt;h3 id=&#34;exercise-finish-for-homework&#34;&gt;Exercise (finish for homework)&lt;/h3&gt;
+
+&lt;p&gt;In the script.js file of the zip folder you downloaded, create a new object.  Call it &lt;code&gt;recipe&lt;/code&gt;.  Give it three properties: a &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;servings&lt;/code&gt;, and &lt;code&gt;ingredients&lt;/code&gt;.  Ingredients should be stored as an &lt;code&gt;array&lt;/code&gt; (check out our donaldTrump example - his &lt;code&gt;children&lt;/code&gt; are stored as an &lt;code&gt;array&lt;/code&gt;.)  Save this, we will be working on it in class on Friday.&lt;/p&gt;
 </description>
     </item>
     
