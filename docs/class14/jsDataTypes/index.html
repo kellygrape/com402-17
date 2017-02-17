@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Friday, February 17, 2017</title>
+    <title>JS Data Types</title>
     <link href="http://com402.kellyannepipe.me//css/nucleus.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/font-awesome.min.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/class14/">
+  <body class="" data-url="/class14/jsDataTypes/">
     <nav id="sidebar">
   <div id="header-wrapper">
     <header role="banner" id="header">
@@ -1014,6 +1014,8 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                 
                 
@@ -1050,6 +1052,8 @@
                   
                     
                     
+                <a href="/class14/" itemprop="url"><span itemprop="title">Friday, February 17, 2017</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
                   
@@ -1108,39 +1112,114 @@
                 
                   
                 
-                <span itemprop="title"> Friday, February 17, 2017</span>
+                <span itemprop="title"> JS Data Types</span>
               </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#string">String</a></li>
+<li><a href="#number">Number</a></li>
+<li><a href="#boolean">Boolean</a></li>
+<li><a href="#undefined">Undefined</a></li>
+<li><a href="#null">Null</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
               
 
             </div>
             
-              <div id="chapter">
-            
     	        <div id="body-inner">
+                
+                <h1>JS Data Types</h1>
                 
 
 
 
-<h3 id="friday-february-17-2017">Friday, February 17, 2017</h3>
+<p>We learned in the last class that one data type of JS is &ldquo;Object&rdquo;.  Another is &ldquo;Array&rdquo;.</p>
 
-<h1 id="javascript-variables-arrays">Javascript - Variables &amp; Arrays</h1>
+<p>Let&rsquo;s look at some of the more <strong>basic</strong> data types.  We&rsquo;ve used a lot of these already in class.</p>
 
-<p><a href="http://www.teaching-materials.org/javascript/#lesson2">much of the material in this lesson is taken from or inspired by teaching-materials</a></p>
+<h3 id="string">String</h3>
 
-<p><a href="http://www.teaching-materials.org/javascript/slides/controlflow.html">Slides</a></p>
+<p>A string is a set of characters (letters, etc).</p>
+
+<pre><code>    var myName = 'Kelly Anne';
+    var schoolName = &quot;Saint Joseph's University&quot;;
+</code></pre>
+
+<h3 id="number">Number</h3>
+
+<p>Number refers to whole numbers (6, -100) or decimal numbers (3.141592).</p>
+
+<pre><code>  var myAge = 33;
+  var birthMonth = 12;
+</code></pre>
+
+<p>You can do simple math with numbers, such as using <code>+</code>, <code>-</code>, <code>/</code>, and <code>*</code>.  Another useful operator is <code>%</code> (modulus) - this gives you the <em>remainder</em> of a division.</p>
+
+<p>We&rsquo;ve also seen shortcut operators, <code>++</code> and <code>--</code> - increment and decrement.  These take the value of a variable and add or minus 1.</p>
+
+<p>More complex Math things are available through the built-in <code>Math</code> object.  For example, you can access the property <code>pi</code> of the <code>Math</code> object by writing:</p>
+
+<pre><code>  var pi = Math.pi;
+</code></pre>
+
+<p><code>Math</code> has a number of built-in functions too! You could get a random number by writing:</p>
+
+<pre><code>  var random = Math.random();
+</code></pre>
+
+<p>This returns a number between 0 and 1.</p>
+
+<p>You can read more about the <code>Math</code> object here - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math</a></p>
+
+<h3 id="boolean">Boolean</h3>
+
+<p>Booleans represent values, true or false.</p>
+
+<pre><code>    var itsAGoodDog = true;
+    var dogIsOverrated = false;
+</code></pre>
+
+<h3 id="undefined">Undefined</h3>
+
+<p>Undefined is simply a value that has no definition yet.  You get an undefined variable by simply writing</p>
+
+<pre><code>  var myVar;
+</code></pre>
+
+<p>Because you haven&rsquo;t assigned myVar any value, it is undefined.</p>
+
+<h3 id="null">Null</h3>
+
+<p>Null is similar to undefined, but not entirely the same.</p>
+
+<p>Null is an empty value.</p>
+
+<pre><code>  var badDogs = null;
+</code></pre>
 
 
-      
-        </div> 
       
       </div>
     </div>
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class13"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class14"> <i class="fa fa-chevron-left"></i></a>
         
-        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/jsDataTypes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/workingWithStrings" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

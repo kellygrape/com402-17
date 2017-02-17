@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Friday, February 17, 2017</title>
+    <title>JS Data Types</title>
     <link href="http://com402.kellyannepipe.me//css/nucleus.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/font-awesome.min.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/class14/">
+  <body class="" data-url="/class14/workingWithStrings/">
     <nav id="sidebar">
   <div id="header-wrapper">
     <header role="banner" id="header">
@@ -1014,6 +1014,8 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                 
                 
@@ -1050,6 +1052,8 @@
                   
                     
                     
+                <a href="/class14/" itemprop="url"><span itemprop="title">Friday, February 17, 2017</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
                   
@@ -1108,39 +1112,100 @@
                 
                   
                 
-                <span itemprop="title"> Friday, February 17, 2017</span>
+                <span itemprop="title"> JS Data Types</span>
               </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#working-with-strings">Working with Strings</a>
+<ul>
+<li><a href="#putting-strings-together-concatenation">Putting Strings Together (concatenation)</a></li>
+<li><a href="#string-properties">String Properties</a></li>
+<li><a href="#string-methods">String Methods</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
               
 
             </div>
             
-              <div id="chapter">
-            
     	        <div id="body-inner">
+                
+                <h1>JS Data Types</h1>
                 
 
 
 
-<h3 id="friday-february-17-2017">Friday, February 17, 2017</h3>
+<h2 id="working-with-strings">Working with Strings</h2>
 
-<h1 id="javascript-variables-arrays">Javascript - Variables &amp; Arrays</h1>
+<p>Often in Javascript, you will be working with <strong>strings</strong>.  It&rsquo;s useful to know some common ways of dealing with strings.</p>
 
-<p><a href="http://www.teaching-materials.org/javascript/#lesson2">much of the material in this lesson is taken from or inspired by teaching-materials</a></p>
+<h3 id="putting-strings-together-concatenation">Putting Strings Together (concatenation)</h3>
 
-<p><a href="http://www.teaching-materials.org/javascript/slides/controlflow.html">Slides</a></p>
+<p>To combine two strings, you need to use <code>concatenation</code>.</p>
+
+<pre><code>  var fName = &quot;Kelly Anne&quot;;
+  var lName = &quot;Pipe&quot;;
+  
+  var fullName = fName + &quot; &quot; + lName;
+</code></pre>
+
+<p>As you see from this example, we can add strings together by using the <code>+</code> operator.</p>
+
+<pre><code>  var favColor = 'blue';
+  
+  document.write(&quot;My favorite color is&quot; + favColor + &quot;.&quot;);
+</code></pre>
+
+<p>Make sure your <code>'</code> and <code>&quot;</code> are balanced when you are writing string concatenations.</p>
+
+<h3 id="string-properties">String Properties</h3>
+
+<p>Sometimes in coding you want to know how long a string is.  To get that value, you will want to access the <code>length</code> property of the string.</p>
+
+<pre><code>  var alphabet = &quot;abcdefghijklmnopqrstuvwxyz&quot;;
+  
+  console.log(alphabet.length); // 26
+</code></pre>
+
+<h3 id="string-methods">String Methods</h3>
+
+<p><strong>Comparing Strings Alphabetically</strong></p>
+
+<p>You can find out if a string comes before another string in the dictionary by simply using the <code>&lt;</code> or <code>&gt;</code> operators.</p>
+
+<pre><code>  if (&quot;purple&quot; &lt; &quot;zoo&quot;) { // true
+    console.log(&quot;your word comes first alphabetically!&quot;);
+  }
+</code></pre>
+
+<p><strong>Getting a letter from inside a string</strong></p>
+
+<pre><code>  var alphabet = &quot;abcdefghijklmnopqrstuvwxyz&quot;;
+  
+  console.log(alphabet.charAt(1)); // ??
+</code></pre>
+
+<p>You can find lots more string functions, like how to get a piece of a string (slice), or how to split up a string into different characters, or how to make a string all uppercase or all lowercase, at the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">Moz Reference for Strings</a></p>
 
 
-      
-        </div> 
       
       </div>
     </div>
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class13"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class14/jsDataTypes"> <i class="fa fa-chevron-left"></i></a>
         
-        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/jsDataTypes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/ifelse" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Friday, February 17, 2017</title>
+    <title>If / Else</title>
     <link href="http://com402.kellyannepipe.me//css/nucleus.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/font-awesome.min.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/class14/">
+  <body class="" data-url="/class14/ifelse/">
     <nav id="sidebar">
   <div id="header-wrapper">
     <header role="banner" id="header">
@@ -1014,6 +1014,8 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                 
                 
@@ -1050,6 +1052,8 @@
                   
                     
                     
+                <a href="/class14/" itemprop="url"><span itemprop="title">Friday, February 17, 2017</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
                   
@@ -1108,39 +1112,222 @@
                 
                   
                 
-                <span itemprop="title"> Friday, February 17, 2017</span>
+                <span itemprop="title"> If / Else</span>
               </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#the-if-statement">The if statement</a></li>
+<li><a href="#comparison-operators">Comparison Operators</a></li>
+<li><a href="#logical-operators">Logical Operators</a></li>
+<li><a href="#the-if-else-statement">The if/else statement</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
               
 
             </div>
             
-              <div id="chapter">
-            
     	        <div id="body-inner">
+                
+                <h1>If / Else</h1>
                 
 
 
 
-<h3 id="friday-february-17-2017">Friday, February 17, 2017</h3>
+<h3 id="the-if-statement">The if statement</h3>
 
-<h1 id="javascript-variables-arrays">Javascript - Variables &amp; Arrays</h1>
+<p>Use <code>if</code> to tell JS which statements to execute, based on a condition.</p>
 
-<p><a href="http://www.teaching-materials.org/javascript/#lesson2">much of the material in this lesson is taken from or inspired by teaching-materials</a></p>
+<pre><code>if (condition) {
+  // statements to execute
+}
+</code></pre>
 
-<p><a href="http://www.teaching-materials.org/javascript/slides/controlflow.html">Slides</a></p>
+<pre><code>var x = 5;
+
+if (x &gt; 0) {
+  console.log('x is a positive number!');
+}
+</code></pre>
+
+<h3 id="comparison-operators">Comparison Operators</h3>
+
+<p>Use these operators to compare two values for equality, inequality, or difference.</p>
+
+<pre><code>var myFavoriteNumber = 28;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+<th>True expressions</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>==</td>
+<td>Equality</td>
+<td>myFavoriteNumber == &lsquo;28&rsquo;</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>28 == &lsquo;28&rsquo;</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>myFavoriteNumber == 28</td>
+</tr>
+
+<tr>
+<td>===</td>
+<td>Strict equality</td>
+<td>myFavoriteNumber === 28</td>
+</tr>
+
+<tr>
+<td>!=</td>
+<td>Inequality</td>
+<td>myFavoriteNumber != 29</td>
+</tr>
+
+<tr>
+<td>!==</td>
+<td>Strict inequality</td>
+<td>myFavoriteNumber !== &lsquo;28&rsquo;</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>28 !== &lsquo;28&rsquo;</td>
+</tr>
+
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+<td>myFavoriteNumber &gt; 25</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>&lsquo;28&rsquo; &gt; 25</td>
+</tr>
+
+<tr>
+<td>&gt;=</td>
+<td>Greater than  or equal</td>
+<td>myFavoriteNumber &gt;= 28</td>
+</tr>
+
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+<td>myFavoriteNumber &lt; 30</td>
+</tr>
+
+<tr>
+<td>&lt;=</td>
+<td>Less than  or equal</td>
+<td>myFavoriteNumber &lt;= 28</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Common mistake: Do not confuse = (the assignment operator) with ==.</strong></p>
+
+<h3 id="logical-operators">Logical Operators</h3>
+
+<p>These are typically used in combination with the comparison operators:</p>
+
+<pre><code>var posNum = 4;
+var negNum = -2;
+</code></pre>
+
+<p><strong>AND - &amp;&amp;</strong></p>
+
+<p><code>posNum &gt; 0 &amp;&amp; negNum &lt; 0</code></p>
+
+<p><code>4 &gt; 0 &amp;&amp; -2 &lt; 0</code></p>
+
+<p>**OR - || **</p>
+
+<p><code>||</code></p>
+
+<p><code>posNum &gt; 0 || negNum &gt; 0</code></p>
+
+<p><code>4 &gt; 0 || -2 &gt; 0</code></p>
+
+<p><strong>NOT - !</strong></p>
+
+<p><code>!(posNum === negNum)</code></p>
+
+<p><code>!(posNum &lt; 0)</code></p>
+
+<p><code>!(false)</code></p>
+
+<p>When combining together multiple conditions, use parentheses to group:</p>
+
+<pre><code>var myAge = 28;
+if ((myAge &gt;= 0 &amp;&amp; myAge &lt; 3)  || myAge &gt; 90) {
+  console.log('You\'re not quite in your peak.');
+}
+</code></pre>
+
+<h3 id="the-if-else-statement">The if/else statement</h3>
+
+<p>Use <code>else</code> to give JS an alternative statement to execute.</p>
+
+<pre><code>var age = 28;
+if (age &gt; 16) {
+  console.log('Yay, you can drive!');
+} else {
+  console.log('Sorry, but you have ' + (16 - age) + ' years til you can drive.');
+}
+</code></pre>
+
+<p>You can use <code>else if</code> if you have multiple exclusive conditions to check:</p>
+
+<pre><code>var age = 20;
+if (age &gt;= 35) {
+  console.log('You can vote AND hold any place in government!');
+} else if (age &gt;= 25) {
+  console.log('You can vote AND run for the Senate!');
+} else if (age &gt;= 18) {
+  console.log('You can vote!');
+} else {
+  console.log('You have no voice in government!');
+}
+</code></pre>
 
 
-      
-        </div> 
       
       </div>
     </div>
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class13"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class14/workingWithStrings"> <i class="fa fa-chevron-left"></i></a>
         
-        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/jsDataTypes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class14/" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

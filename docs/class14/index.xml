@@ -17,11 +17,332 @@
       <guid>http://com402.kellyannepipe.me/class14/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;friday-february-17-2017&#34;&gt;Friday, February 17, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;javascript-variables-arrays&#34;&gt;Javascript - Variables &amp;amp; Arrays&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.teaching-materials.org/javascript/#lesson2&#34;&gt;much of the material in this lesson is taken from or inspired by teaching-materials&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.teaching-materials.org/javascript/slides/controlflow.html&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JS Data Types</title>
+      <link>http://com402.kellyannepipe.me/class14/jsDataTypes/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class14/jsDataTypes/</guid>
+      <description>
+
+&lt;p&gt;We learned in the last class that one data type of JS is &amp;ldquo;Object&amp;rdquo;.  Another is &amp;ldquo;Array&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at some of the more &lt;strong&gt;basic&lt;/strong&gt; data types.  We&amp;rsquo;ve used a lot of these already in class.&lt;/p&gt;
+
+&lt;h3 id=&#34;string&#34;&gt;String&lt;/h3&gt;
+
+&lt;p&gt;A string is a set of characters (letters, etc).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    var myName = &#39;Kelly Anne&#39;;
+    var schoolName = &amp;quot;Saint Joseph&#39;s University&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;number&#34;&gt;Number&lt;/h3&gt;
+
+&lt;p&gt;Number refers to whole numbers (6, -100) or decimal numbers (3.141592).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var myAge = 33;
+  var birthMonth = 12;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can do simple math with numbers, such as using &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, and &lt;code&gt;*&lt;/code&gt;.  Another useful operator is &lt;code&gt;%&lt;/code&gt; (modulus) - this gives you the &lt;em&gt;remainder&lt;/em&gt; of a division.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also seen shortcut operators, &lt;code&gt;++&lt;/code&gt; and &lt;code&gt;--&lt;/code&gt; - increment and decrement.  These take the value of a variable and add or minus 1.&lt;/p&gt;
+
+&lt;p&gt;More complex Math things are available through the built-in &lt;code&gt;Math&lt;/code&gt; object.  For example, you can access the property &lt;code&gt;pi&lt;/code&gt; of the &lt;code&gt;Math&lt;/code&gt; object by writing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var pi = Math.pi;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;Math&lt;/code&gt; has a number of built-in functions too! You could get a random number by writing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var random = Math.random();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This returns a number between 0 and 1.&lt;/p&gt;
+
+&lt;p&gt;You can read more about the &lt;code&gt;Math&lt;/code&gt; object here - &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;boolean&#34;&gt;Boolean&lt;/h3&gt;
+
+&lt;p&gt;Booleans represent values, true or false.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    var itsAGoodDog = true;
+    var dogIsOverrated = false;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;undefined&#34;&gt;Undefined&lt;/h3&gt;
+
+&lt;p&gt;Undefined is simply a value that has no definition yet.  You get an undefined variable by simply writing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var myVar;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Because you haven&amp;rsquo;t assigned myVar any value, it is undefined.&lt;/p&gt;
+
+&lt;h3 id=&#34;null&#34;&gt;Null&lt;/h3&gt;
+
+&lt;p&gt;Null is similar to undefined, but not entirely the same.&lt;/p&gt;
+
+&lt;p&gt;Null is an empty value.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var badDogs = null;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JS Data Types</title>
+      <link>http://com402.kellyannepipe.me/class14/workingWithStrings/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class14/workingWithStrings/</guid>
+      <description>
+
+&lt;h2 id=&#34;working-with-strings&#34;&gt;Working with Strings&lt;/h2&gt;
+
+&lt;p&gt;Often in Javascript, you will be working with &lt;strong&gt;strings&lt;/strong&gt;.  It&amp;rsquo;s useful to know some common ways of dealing with strings.&lt;/p&gt;
+
+&lt;h3 id=&#34;putting-strings-together-concatenation&#34;&gt;Putting Strings Together (concatenation)&lt;/h3&gt;
+
+&lt;p&gt;To combine two strings, you need to use &lt;code&gt;concatenation&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var fName = &amp;quot;Kelly Anne&amp;quot;;
+  var lName = &amp;quot;Pipe&amp;quot;;
+  
+  var fullName = fName + &amp;quot; &amp;quot; + lName;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you see from this example, we can add strings together by using the &lt;code&gt;+&lt;/code&gt; operator.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var favColor = &#39;blue&#39;;
+  
+  document.write(&amp;quot;My favorite color is&amp;quot; + favColor + &amp;quot;.&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Make sure your &lt;code&gt;&#39;&lt;/code&gt; and &lt;code&gt;&amp;quot;&lt;/code&gt; are balanced when you are writing string concatenations.&lt;/p&gt;
+
+&lt;h3 id=&#34;string-properties&#34;&gt;String Properties&lt;/h3&gt;
+
+&lt;p&gt;Sometimes in coding you want to know how long a string is.  To get that value, you will want to access the &lt;code&gt;length&lt;/code&gt; property of the string.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var alphabet = &amp;quot;abcdefghijklmnopqrstuvwxyz&amp;quot;;
+  
+  console.log(alphabet.length); // 26
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;string-methods&#34;&gt;String Methods&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Comparing Strings Alphabetically&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find out if a string comes before another string in the dictionary by simply using the &lt;code&gt;&amp;lt;&lt;/code&gt; or &lt;code&gt;&amp;gt;&lt;/code&gt; operators.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  if (&amp;quot;purple&amp;quot; &amp;lt; &amp;quot;zoo&amp;quot;) { // true
+    console.log(&amp;quot;your word comes first alphabetically!&amp;quot;);
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting a letter from inside a string&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  var alphabet = &amp;quot;abcdefghijklmnopqrstuvwxyz&amp;quot;;
+  
+  console.log(alphabet.charAt(1)); // ??
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find lots more string functions, like how to get a piece of a string (slice), or how to split up a string into different characters, or how to make a string all uppercase or all lowercase, at the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String&#34;&gt;Moz Reference for Strings&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If / Else</title>
+      <link>http://com402.kellyannepipe.me/class14/ifelse/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class14/ifelse/</guid>
+      <description>
+
+&lt;h3 id=&#34;the-if-statement&#34;&gt;The if statement&lt;/h3&gt;
+
+&lt;p&gt;Use &lt;code&gt;if&lt;/code&gt; to tell JS which statements to execute, based on a condition.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (condition) {
+  // statements to execute
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;var x = 5;
+
+if (x &amp;gt; 0) {
+  console.log(&#39;x is a positive number!&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;comparison-operators&#34;&gt;Comparison Operators&lt;/h3&gt;
+
+&lt;p&gt;Use these operators to compare two values for equality, inequality, or difference.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var myFavoriteNumber = 28;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Operator&lt;/th&gt;
+&lt;th&gt;Meaning&lt;/th&gt;
+&lt;th&gt;True expressions&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;==&lt;/td&gt;
+&lt;td&gt;Equality&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber == &amp;lsquo;28&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;28 == &amp;lsquo;28&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber == 28&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;===&lt;/td&gt;
+&lt;td&gt;Strict equality&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber === 28&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;!=&lt;/td&gt;
+&lt;td&gt;Inequality&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber != 29&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;!==&lt;/td&gt;
+&lt;td&gt;Strict inequality&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber !== &amp;lsquo;28&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;28 !== &amp;lsquo;28&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;gt;&lt;/td&gt;
+&lt;td&gt;Greater than&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber &amp;gt; 25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;lsquo;28&amp;rsquo; &amp;gt; 25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;gt;=&lt;/td&gt;
+&lt;td&gt;Greater than  or equal&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber &amp;gt;= 28&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;lt;&lt;/td&gt;
+&lt;td&gt;Less than&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber &amp;lt; 30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;lt;=&lt;/td&gt;
+&lt;td&gt;Less than  or equal&lt;/td&gt;
+&lt;td&gt;myFavoriteNumber &amp;lt;= 28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Common mistake: Do not confuse = (the assignment operator) with ==.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;logical-operators&#34;&gt;Logical Operators&lt;/h3&gt;
+
+&lt;p&gt;These are typically used in combination with the comparison operators:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var posNum = 4;
+var negNum = -2;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;AND - &amp;amp;&amp;amp;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;posNum &amp;gt; 0 &amp;amp;&amp;amp; negNum &amp;lt; 0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;4 &amp;gt; 0 &amp;amp;&amp;amp; -2 &amp;lt; 0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;**OR - || **&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;||&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;posNum &amp;gt; 0 || negNum &amp;gt; 0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;4 &amp;gt; 0 || -2 &amp;gt; 0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOT - !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;!(posNum === negNum)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;!(posNum &amp;lt; 0)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;!(false)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;When combining together multiple conditions, use parentheses to group:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var myAge = 28;
+if ((myAge &amp;gt;= 0 &amp;amp;&amp;amp; myAge &amp;lt; 3)  || myAge &amp;gt; 90) {
+  console.log(&#39;You\&#39;re not quite in your peak.&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-if-else-statement&#34;&gt;The if/else statement&lt;/h3&gt;
+
+&lt;p&gt;Use &lt;code&gt;else&lt;/code&gt; to give JS an alternative statement to execute.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var age = 28;
+if (age &amp;gt; 16) {
+  console.log(&#39;Yay, you can drive!&#39;);
+} else {
+  console.log(&#39;Sorry, but you have &#39; + (16 - age) + &#39; years til you can drive.&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can use &lt;code&gt;else if&lt;/code&gt; if you have multiple exclusive conditions to check:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var age = 20;
+if (age &amp;gt;= 35) {
+  console.log(&#39;You can vote AND hold any place in government!&#39;);
+} else if (age &amp;gt;= 25) {
+  console.log(&#39;You can vote AND run for the Senate!&#39;);
+} else if (age &amp;gt;= 18) {
+  console.log(&#39;You can vote!&#39;);
+} else {
+  console.log(&#39;You have no voice in government!&#39;);
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
