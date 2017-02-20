@@ -9,8 +9,8 @@ icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Monday, February 20, 2017
 
-# Some Chapter title
+# Javascript | Arrays & Loops
 
-Lorem ipsum
+[View Slides](/gdi-featured-js-intro/class3.html)
