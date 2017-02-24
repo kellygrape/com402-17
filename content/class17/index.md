@@ -17,7 +17,7 @@ We will be creating a recipe card carousel project, which will allow the user to
 
 One thing we need to discuss first is *functions*.
 
-[View Slides](/gdi-featured-js-intro/class17.html)
+[View Slides](/gdi-intro-js-master/class17.html)
 
 ```
 var fname = "Kelly Anne";
