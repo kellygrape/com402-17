@@ -17,11 +17,158 @@
       <guid>http://com402.kellyannepipe.me/class16/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;wednesday-february-22-2017&#34;&gt;Wednesday, February 22, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;javascript-more-arrays-loops&#34;&gt;Javascript | More Arrays &amp;amp; Loops&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;We will have a quick quiz to review the &amp;ldquo;for&amp;rdquo; function, and then we will be working on our recipe project again!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-featured-js-intro/class3.html&#34;&gt;View Slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Objects - a Recap</title>
+      <link>http://com402.kellyannepipe.me/class16/objectsReview/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class16/objectsReview/</guid>
+      <description>
+
+&lt;p&gt;We finished up our recipe, printing out one recipe to the page.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-an-object-to-store-the-recipe&#34;&gt;Using an object to store the recipe&lt;/h2&gt;
+
+&lt;p&gt;We have used an &lt;code&gt;object&lt;/code&gt; to store our recipe.  Objects are a type data in Javascript that have &lt;code&gt;properties&lt;/code&gt; and &lt;code&gt;methods&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our object is named &lt;code&gt;recipe&lt;/code&gt;, and we have given it a number of properties (no methods!).&lt;/p&gt;
+
+&lt;p&gt;An object can be created just by naming a variable and the giving it a set of empty curly brackets.&lt;/p&gt;
+
+&lt;p&gt;Remember, &lt;strong&gt;objects use curly brackets, &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var sampleObject = {};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can also set up an object by passing it some properties at the very beginning!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var sampleObjectWithProperties = {
+    property1 : &#39;value of property1&#39;,
+    property2 : 15,
+    property3 : {},
+    property4 : []
+  };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the object above, &lt;code&gt;property1&lt;/code&gt; is a String with the value &lt;code&gt;&amp;quot;value of property&amp;quot;&lt;/code&gt;.  If you wanted to access this value, you would use &lt;code&gt;dot notation&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sampleObjectWithProperties.property1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;property2 is an Integer, property3 is another object, and property4 is an array.  That&amp;rsquo;s right, objects can hold any data type in their properties, even other objects!&lt;/p&gt;
+
+&lt;p&gt;Now, let&amp;rsquo;s look at a sample recipe object.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var recipe = {
+  title: &amp;quot;Dad&#39;s Pancakes&amp;quot;,
+  servings: 6,
+  ingredients: [
+      &amp;quot;1 1/4 cup flour&amp;quot;,
+      &amp;quot;1 cup milk&amp;quot;,
+      &amp;quot;1 egg&amp;quot;,
+      &amp;quot;2 tsp baking powder&amp;quot;,
+      &amp;quot;3 tsp butter&amp;quot;
+  ]
+};
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mini Quiz</title>
+      <link>http://com402.kellyannepipe.me/class16/miniquiz/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class16/miniquiz/</guid>
+      <description>
+
+&lt;h3 id=&#34;knowledge-challenge&#34;&gt;Knowledge challenge!&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;var recipe = {
+  title: &amp;quot;Dad&#39;s Pancakes&amp;quot;,
+  servings: 6,
+  ingredients: [
+      &amp;quot;1 1/4 cup flour&amp;quot;,
+      &amp;quot;1 cup milk&amp;quot;,
+      &amp;quot;1 egg&amp;quot;,
+      &amp;quot;2 tsp baking powder&amp;quot;,
+      &amp;quot;3 tsp butter&amp;quot;
+  ]
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Given the recipe above &amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How many properties does it have?&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;What are they?&lt;/li&gt;
+&lt;li&gt;What are their values?&lt;/li&gt;
+&lt;li&gt;What are their data types?&lt;/li&gt;
+&lt;li&gt;How would you access each value?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quiz Answers</title>
+      <link>http://com402.kellyannepipe.me/class16/quizanswers/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class16/quizanswers/</guid>
+      <description>
+
+&lt;h3 id=&#34;answers-to-the-knowledge-challenge&#34;&gt;Answers to the knowledge challenge&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;var recipe = {
+  title: &amp;quot;Dad&#39;s Pancakes&amp;quot;,
+  servings: 6,
+  ingredients: [
+      &amp;quot;1 1/4 cup flour&amp;quot;,
+      &amp;quot;1 cup milk&amp;quot;,
+      &amp;quot;1 egg&amp;quot;,
+      &amp;quot;2 tsp baking powder&amp;quot;,
+      &amp;quot;3 tsp butter&amp;quot;
+  ]
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Given the recipe above &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How many properties does it have?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are they?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;, &lt;code&gt;servings&lt;/code&gt;, &lt;code&gt;ingredients&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are their values?  What data type are the values?  How would you access the value?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;&amp;rsquo;s value is &lt;code&gt;&amp;quot;Dad&#39;s Pancakes&amp;quot;&lt;/code&gt;, which is a String.  You access it by writing &lt;code&gt;recipe.title&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;servings&lt;/code&gt;&amp;rsquo;s value is &lt;code&gt;6&lt;/code&gt;, which is an Integer.  You access it by writing &lt;code&gt;recipe.servings&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ingredients&lt;/code&gt;&amp;rsquo;s value is &lt;code&gt;[&amp;quot;1 1/4 cup flour&amp;quot;,&amp;quot;1 cup milk&amp;quot;,&amp;quot;1 egg&amp;quot;,&amp;quot;2 tsp baking powder&amp;quot;,&amp;quot;3 tsp butter&amp;quot;]&lt;/code&gt;, which is an Array.  You access it by writing &lt;code&gt;recipe.ingredients&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using a For Loop</title>
+      <link>http://com402.kellyannepipe.me/class16/forLoop/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class16/forLoop/</guid>
+      <description>&lt;p&gt;Review the slides at the beginning of this lesson to learn more about For Loops.&lt;/p&gt;
 </description>
     </item>
     

@@ -136,6 +136,24 @@
     </item>
     
     <item>
+      <title>Wednesday, February 22, 2017</title>
+      <link>http://com402.kellyannepipe.me/class16/</link>
+      <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class16/</guid>
+      <description>
+
+&lt;h3 id=&#34;wednesday-february-22-2017&#34;&gt;Wednesday, February 22, 2017&lt;/h3&gt;
+
+&lt;h1 id=&#34;javascript-more-arrays-loops&#34;&gt;Javascript | More Arrays &amp;amp; Loops&lt;/h1&gt;
+
+&lt;p&gt;We will have a quick quiz to review the &amp;ldquo;for&amp;rdquo; function, and then we will be working on our recipe project again!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-featured-js-intro/class3.html&#34;&gt;View Slides&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wednesday, February 8, 2017</title>
       <link>http://com402.kellyannepipe.me/class10/</link>
       <pubDate>Fri, 06 Jan 2017 18:43:51 -0500</pubDate>
@@ -575,35 +593,6 @@ page. You &lt;strong&gt;may not alter&lt;/strong&gt; the HTML at all in the CSS 
 &lt;li&gt;January-February : HTML and CSS&lt;/li&gt;
 &lt;li&gt;March : Javascript&lt;/li&gt;
 &lt;li&gt;April : Wordpress / General Topics&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Autoprefixer</title>
-      <link>http://com402.kellyannepipe.me/class09/autoprefixer/</link>
-      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://com402.kellyannepipe.me/class09/autoprefixer/</guid>
-      <description>
-
-&lt;h3 id=&#34;autoprefixer&#34;&gt;Autoprefixer&lt;/h3&gt;
-
-&lt;p&gt;In the last class, we briefly talked about using vendor prefixes for things like transitions, animations, etc.  Vendor prefixes help us make sure that browsers that are still working on implementing these new features can understand our code.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/autoprefixer/&#34;&gt;About Autoprefixer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are a lot of options for prefixing your CSS.  You can type in all your prefixes yourself (tedious and hard to remember).  Or you can use an online tool such as &lt;a href=&#34;http://pleeease.io/play/&#34;&gt;pleeease&lt;/a&gt; or &lt;a href=&#34;http://css3generator.com/&#34;&gt;CSS3 Generator&lt;/a&gt; to help you set up your transforms and transitions with the prefixes you need.&lt;/p&gt;
-
-&lt;p&gt;You can also install a tool called &lt;em&gt;Autoprefixer&lt;/em&gt; in Atom.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use the &lt;strong&gt;Command Palette&lt;/strong&gt; to install a package.  Type &lt;code&gt;⌘-⇧-p&lt;/code&gt; (&lt;code&gt;command&lt;/code&gt; or &lt;code&gt;control&lt;/code&gt;, &lt;code&gt;shift&lt;/code&gt;, and &lt;code&gt;p&lt;/code&gt; all at the same time) to open the Command Palette.  Then start typing &lt;code&gt;Install Package&lt;/code&gt; to see the options - you want to go to the &lt;strong&gt;Settings View: Install Packages&lt;/strong&gt; section.&lt;/li&gt;
-&lt;li&gt;Search for &lt;strong&gt;autoprefixer&lt;/strong&gt; and install that package.&lt;/li&gt;
-&lt;li&gt;Create a new CSS file and create some CSS. Try &lt;code&gt;div{ transform:rotate(360deg); }&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Open the &lt;strong&gt;Command Palette&lt;/strong&gt; again and search for Autoprefixer.  Hit &lt;code&gt;Enter&lt;/code&gt; to run Autoprefixer on your CSS.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

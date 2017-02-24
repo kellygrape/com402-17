@@ -9,8 +9,19 @@ icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Friday, February 24, 2017
 
-# Some Chapter title
+# Recipe Card Project
 
-Lorem ipsum
+We will be creating a recipe card carousel project, which will allow the user to flip from one recipe card to another.
+
+One thing we need to discuss first is *functions*.
+
+[View Slides](/gdi-featured-js-intro/class17.html)
+
+```
+var fname = "Kelly Anne";
+var lname = "Pipe";
+
+console.log( fname + " " + lname);
+```

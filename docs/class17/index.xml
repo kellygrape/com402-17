@@ -17,11 +17,21 @@
       <guid>http://com402.kellyannepipe.me/class17/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;friday-february-24-2017&#34;&gt;Friday, February 24, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;recipe-card-project&#34;&gt;Recipe Card Project&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;We will be creating a recipe card carousel project, which will allow the user to flip from one recipe card to another.&lt;/p&gt;
+
+&lt;p&gt;One thing we need to discuss first is &lt;em&gt;functions&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-featured-js-intro/class17.html&#34;&gt;View Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var fname = &amp;quot;Kelly Anne&amp;quot;;
+var lname = &amp;quot;Pipe&amp;quot;;
+
+console.log( fname + &amp;quot; &amp;quot; + lname);
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

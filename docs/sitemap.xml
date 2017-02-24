@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>http://com402.kellyannepipe.me/class16/</loc>
+    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://com402.kellyannepipe.me/class10/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
@@ -69,6 +74,11 @@
   <url>
     <loc>http://com402.kellyannepipe.me/class-info/schedule/</loc>
     <lastmod>2017-01-06T18:41:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class16/objectsReview/</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -222,11 +232,6 @@
   </url>
   
   <url>
-    <loc>http://com402.kellyannepipe.me/class16/</loc>
-    <lastmod>2017-01-06T18:43:51-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://com402.kellyannepipe.me/class04/</loc>
     <lastmod>2017-01-06T18:43:51-05:00</lastmod>
   </url>
@@ -319,6 +324,21 @@
   <url>
     <loc>http://com402.kellyannepipe.me/class-info/reference/</loc>
     <lastmod>2017-01-06T18:41:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class16/miniquiz/</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class16/quizanswers/</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://com402.kellyannepipe.me/class16/forLoop/</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
