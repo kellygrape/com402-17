@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Javascript Base</title>
+	<style>
+	body {
+    background-color: #57abf2;
+    background-image: -webkit-linear-gradient(-225deg, #19d3d1 5%, #57abf2);
+    background-image: linear-gradient(-45deg,#19d3d1 5%, #57abf2);
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    font-size: 1rem;
+	  color: #333;
+	}
+	header{
+  	text-align: center;
+  	max-width: 50em;
+  	margin: 0 auto;
+	}
+	h1 {
+	  border-bottom: 1px solid #999;
+	  margin-bottom: 0.5rem;
+	  padding-bottom: 0.5rem;
+	}
+	.recipe{
+  	background-color: white;
+  	padding: 20px;
+  	border-radius: 2px;
+  	max-width: 50em;
+  	margin: 0 auto;
+	}
+	.recipe h2{
+  	margin: 0;
+	}
+	.button-wrapper{
+  	max-width: 50em;
+  	margin: 0 auto;
+  	text-align: center;
+	}
+	.nextrecipe{
+    outline: none;
+    text-align: center;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid white;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    padding: 15px 30px;
+    margin: 10px auto;
+  }
+  button:hover {
+    color: white;
+    background: #1ECD97;
+  }
+  button:active {
+    letter-spacing: 2px;
+  }
+
+	</style>
+</head>
+<body>
+<header>
+  <h1>Recipes</h1>
+</header>	
+<article class="recipe">
+	<h2>Recipe Title</h2>
+	<p>Servings: <span class="servings">4</span></p>
+	<ul class="ingredients">
+
+	</ul>
+</article>
+<div class="button-wrapper">
+<button class="nextrecipe">Next Recipe</button>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

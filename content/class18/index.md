@@ -9,8 +9,8 @@ icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Monday, February 27, 2017
 
-# Some Chapter title
+# Presentations for Project 2
 
-Lorem ipsum
+Today we will present our initial designs for Project #2.

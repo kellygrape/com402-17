@@ -9,8 +9,12 @@ icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Wednesday, March 1, 2017
 
-# Some Chapter title
+# Javascript - Recipe Project
 
-Lorem ipsum
+We will continue to work on our recipe project.
+
+[Slides](/gdi-intro-js-master/class19.html)
+
+[Starting Code](/gdi-intro-js-master/files/recipebase.zip) (please use this to ensure we are all on the same point with our projects)

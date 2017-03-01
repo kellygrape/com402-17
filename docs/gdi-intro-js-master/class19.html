@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Class 19</title>
+
+		<meta name="description" content="This is an introduction to JavaScript curriculum, developed by Sylvia Richardson for the Raleigh/Durham chapter.
+
+        The course is meant to be taught in 4 two-hour sections. Each of the slides and practice files are customizable according to the needs of a given class or audience.">
+		<meta name="author" content="Girl Develop It">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+		<!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/dark.css">
+
+		<!-- If use the PDF print sheet so students can print slides-->
+
+		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+        <!-- Opening slide -->
+<section>
+    <img src="images/gdi_logo_badge.png" alt="GDI logo">
+    <h3>Javascript Functions - Recipe Project</h3>
+    <h4>Class 19</h4>
+</section>
+
+
+<section>
+  <h3>Prep-Work</h3>
+  <p><a href="/gdi-intro-js-master/files/recipebase.zip">Download this version of our recipe project</a>.  Unzip it into your coursework folder.  Name it class19</p>
+  <p>Open it in Atom.</p>
+  <p>Serve it up.</p>
+</section>
+
+<section>
+<h3>Recipe Project</h3>
+<p>Let's talk about our recipe project.  Thinking about what we need to do (print a recipe to the screen, then print another recipe to the screen), what can we do to function-ize our code?</p>
+</section>
+
+
+<section>
+<pre class="styled-code">document.querySelector('.recipe h2').innerHTML = recipe.title;
+document.querySelector('.recipe .servings').innerHTML = recipe.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = recipe.ingredients.length;
+for(var i = 0; i < recipe.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+recipe.ingredients[i]+'&lt;/li>';
+}
+</pre>
+</section>
+<section>
+<pre class="styled-code">document.querySelector('.recipe h2').innerHTML = recipe.title;
+<span class="fadeout">document.querySelector('.recipe .servings').innerHTML = recipe.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = recipe.ingredients.length;
+for(var i = 0; i < recipe.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+recipe.ingredients[i]+'&lt;/li>';
+}</span>
+</pre>
+</section>
+<section>
+<pre class="styled-code">document.querySelector('.recipe h2').innerHTML = <span class="callout">recipe</span>.title;
+<span class="fadeout">document.querySelector('.recipe .servings').innerHTML = recipe.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = recipe.ingredients.length;
+for(var i = 0; i < recipe.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+recipe.ingredients[i]+'&lt;/li>';
+}</span>
+</pre>
+</section>
+<section>
+<pre class="styled-code">document.querySelector('.recipe h2').innerHTML = <span class="callout">recipe2</span>.title;
+<span class="fadeout">document.querySelector('.recipe .servings').innerHTML = recipe.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = recipe.ingredients.length;
+for(var i = 0; i < recipe.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+recipe.ingredients[i]+'&lt;/li>';
+}</span>
+</pre>
+</section>
+<section>
+<pre class="styled-code">document.querySelector('.recipe h2').innerHTML = <span class="callout">recipe2</span>.title;
+document.querySelector('.recipe .servings').innerHTML = <span class="callout">recipe2</span>.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = <span class="callout">recipe2</span>.ingredients.length;
+for(var i = 0; i < <span class="callout">recipe2</span>.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+<span class="callout">recipe2</span>.ingredients[i]+'&lt;/li>';
+}
+</pre>
+</section>
+<section>
+<pre class="styled-code">
+<span class="callout">function printRecipe(){</span>
+document.querySelector('.recipe h2').innerHTML = <span class="callout2">recipe</span>.title;
+document.querySelector('.recipe .servings').innerHTML = <span class="callout2">recipe</span>.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = <span class="callout2">recipe</span>.ingredients.length;
+for(var i = 0; i < <span class="callout2">recipe</span>.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+<span class="callout2">recipe</span>.ingredients[i]+'&lt;/li>';
+}
+<span class="callout">}</span>
+</pre>
+</section>
+<section>
+<pre class="styled-code">
+function printRecipe(<span class="callout">r</span>){
+document.querySelector('.recipe .servings').innerHTML = recipe.servings;
+document.querySelector('.recipe .ingredients').innerHTML = '';
+var numingredients = recipe.ingredients.length;
+for(var i = 0; i < recipe.ingredients.length; i = i+1){
+  document.querySelector('.ingredients').innerHTML +=
+	  '&lt;li>'+recipe.ingredients[i]+'&lt;/li>';
+}
+<span class="callout2">}</span>
+</pre>
+</section>
+<section>
+<pre class="styled-code">
+function printRecipe(<span class="callout">r</span>){
+	document.querySelector('.recipe h2').innerHTML = <span class="callout">r</span>.title;
+	document.querySelector('.recipe .servings').innerHTML = <span class="callout">r</span>.servings;
+	document.querySelector('.recipe .ingredients').innerHTML = '';
+	var numingredients = <span class="callout">r</span>.ingredients.length;
+	for(var i = 0; i < <span class="callout">r</span>.ingredients.length; i = i+1){
+	  document.querySelector('.ingredients').innerHTML +=
+		  '&lt;li>'+<span class="callout">r</span>.ingredients[i]+'&lt;/li>';
+	}
+}
+</pre>
+</section>
+<section>
+<pre class="styled-code">
+printRecipe(recipe);
+</pre>
+</section>
+<section>
+<pre class="styled-code">
+printRecipe(<span class="callout">recipe2</span>);
+</pre>
+</section>
+			</div><!-- Close .slides -->
+  		<footer>
+        <div class="copyright">
+          JavaScript for Beginners ~ Girl Develop It ~
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div><!-- Close .copyright -->
+      </footer>
+    </div><!-- Close .reveal -->
+
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+                touch: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
