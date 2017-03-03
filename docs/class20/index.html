@@ -127,6 +127,10 @@
             
           
         
+          
+            
+          
+        
       
       
       
@@ -240,6 +244,28 @@
           
           
         </ul>
+        
+      </li>
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item active parent" data-nav-id="/class20/">
+        <a href="/class20/">
+          <span>
+            
+              <b>X. </b>
+            
+             Friday, March 3, 2017
+            
+           </span>
+        </a>
         
       </li>
       
@@ -1359,11 +1385,49 @@
 
 
 
-<h3 id="chapter-x">Chapter X</h3>
+<h3 id="friday-march-3-2017">Friday, March 3, 2017</h3>
 
-<h1 id="some-chapter-title">Some Chapter title</h1>
+<h1 id="javascript-recipe-project">Javascript - Recipe Project</h1>
 
-<p>Lorem ipsum</p>
+<p>We will continue to work on our recipe project.</p>
+
+<p><a href="/gdi-intro-js-master/class20.html">Slides</a></p>
+
+<ul>
+<li>Adding event listeners</li>
+<li>Creating a collection of object using array</li>
+<li>Using &lsquo;foreach&rsquo; to print all pieces of an array</li>
+<li>Understanding data types and how to change / transfer data types</li>
+<li>Using data attributes to share information from HTML to JS.</li>
+</ul>
+
+<h2 id="starting-code">Starting Code</h2>
+
+<p>Use the following code in the bottom of your script.js for your recipe project.  This is what we worked on in the last class, so you probably already have a lot of this written.</p>
+
+<pre><code>/// showRecipe prints out a recipe
+//    r should be a recipe object.
+function showRecipe(r){
+  document.querySelector('.recipe h2').innerHTML = r.title;
+  document.querySelector('.recipe .servings').innerHTML = r.servings;
+  document.querySelector('.recipe .ingredients').innerHTML = '';
+  var numingredients = r.ingredients.length;
+  for(var i = 0; i &lt; r.ingredients.length; i = i+1){
+    document.querySelector('.ingredients').innerHTML +=  '&lt;li&gt;'+r.ingredients[i]+'&lt;/li&gt;';
+  }
+};
+
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    console.log(this.classList);
+    console.log(this.getAttribute('data-recipe'));
+    var recipetoshow = this.getAttribute('data-recipe');
+    console.log(recipetoshow);
+    console.log(typeof recipetoshow);
+  });
+
+</code></pre>
 
 
       

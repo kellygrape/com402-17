@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Class 19</title>
+
+		<meta name="description" content="This is an introduction to JavaScript curriculum, developed by Sylvia Richardson for the Raleigh/Durham chapter.
+
+        The course is meant to be taught in 4 two-hour sections. Each of the slides and practice files are customizable according to the needs of a given class or audience.">
+		<meta name="author" content="Girl Develop It">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+		<!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/dark.css">
+
+		<!-- If use the PDF print sheet so students can print slides-->
+
+		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+        <!-- Opening slide -->
+<section>
+    <img src="images/gdi_logo_badge.png" alt="GDI logo">
+    <h3>Javascript Functions - Recipe Project</h3>
+    <h4>Class 19</h4>
+</section>
+
+
+<section>
+  <h3>Prep-Work</h3>
+  <p><a href="/gdi-intro-js-master/files/recipebase.zip">Download this version of our recipe project</a>.  Unzip it into your coursework folder.  Name it class19</p>
+  <p>Open it in Atom.</p>
+  <p>Serve it up.</p>
+</section>
+
+<section>
+<h3>Recipe Project</h3>
+<p>Let's talk about our recipe project.  Thinking about what we need to do (print a recipe to the screen, then print another recipe to the screen), what can we do to function-ize our code?</p>
+</section>
+
+
+<section>
+<h3>Adding event listeners</h3>
+<pre class="styled-code">
+document.querySelector(el).addEventListener(e,function(){ // code here });
+<span class="callout">theElementYouWantToTrigger</span>.addEventListener(<span class="callout">theEvent</span>,<span class="callout2">theStuffYouWantToDo</span>);
+</pre>
+</section>
+
+<section>
+<h3>Using data attributes to share information from HTML to JS</h3>
+<pre class="styled-code">
+<button data-recipe="pancakes">Pancakes</button><button data-recipe="cookies">Cookies</button>
+</pre>
+<pre class="styled-code">
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    <span class="callout">this.getAttribute('data-recipe'));</span>
+    // will return "pancakes" or "cookies", as a string
+  });</pre>
+</section>
+
+<section>
+<h3>Save it as a varible (so we can use it!)</h3>
+<pre class="styled-code">
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    <span class="callout">var recipetoshow = </span>this.getAttribute('data-recipe'));
+    // will return "pancakes" or "cookies", as a string
+    
+  });</pre>
+</section>
+<section>
+<h3>Understanding data types and how to change / transfer data types</h3>
+<pre class="styled-code">
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    var recipetoshow = this.getAttribute('data-recipe'));
+    <span class="callout">console.log(typeof recipetoshow);</span>
+    // should print "String" in the console
+  });</pre>
+</section>
+
+<section>
+<h3>What if our attribute was a number?</h3>
+<pre class="styled-code">
+<button data-recipe="0">Pancakes</button><button data-recipe="1">Cookies</button>
+</pre>
+<pre class="styled-code">
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    var recipetoshow = this.getAttribute('data-recipe'));
+    <span class="callout">console.log(recipetoshow);</span>
+    // should print 0 or 1 - looks like a number!
+    <span class="callout">console.log(typeof recipetoshow);</span>
+    // should print "String"  :(
+  });</pre>
+</section>
+
+
+
+<section>
+<h3>Changing things from Strings to Numbers</h3>
+<pre class="styled-code">
+
+var myAge = "33"; // this is a string
+
+console.log(typeof myAge);
+
+var myAgeNum = parseInt(myAge);
+
+console.log(typeof myAgeNum);
+</pre>
+</section>
+
+
+<section>
+<h3>Changing things from Strings to ... variable names?</h3>
+
+<p>Our data attributes are holding our variable names. So ... we need to understand that the string is actually a variable name.  We need to get JS to evaluate it.</p>
+<pre class="styled-code">
+<button data-recipe="pancakes">Pancakes</button><button data-recipe="cookies">Cookies</button>
+</pre>
+<pre class="styled-code">
+document
+  .querySelector('.nextrecipe')
+  .addEventListener('click',function(){
+    var recipetoshow = this.getAttribute('data-recipe'));
+    <span class="callout">console.log(typeof recipetoshow);</span>
+    <span class="callout">eval(recipetoshow);</span>
+    <span class="callout">console.log(eval(recipetoshow));</span>  
+    // important to know - this doesn't DO anything to the value.
+    // it just evaluates it and then waits to see what you want to
+    // do with the evaluation.
+    // so, we need to save the evaluation result in something else.
+    <span class="callout">var evaledRecipe = eval(recipetoshow);</span> 
+    });</pre>
+</section>
+
+
+<section>
+<h3>Creating a collection of object using array</h3>
+
+<p>What if we had more than two recipes?</p>
+<p>What if we had 80?</p>
+<p>We can store any number of objects (or other types of data) into an array!</p>
+<pre class="styled-code">
+var recipeArr = []; // create an empty array
+
+// two different ways to add something to the end of an array
+recipeArr.push(pancakes);
+recipeArr[] = cookies;
+console.log(recipeArr);
+
+// we can also remove things from an array using pop
+// (don't do this right now!)
+recipeArr.pop();
+</pre>
+</section>
+
+
+<section>
+<h3>Using For to go through an array</h3>
+
+<pre class="styled-code">
+for(var i = 0; i &lt; myArray.length; i = i+1){
+  //do stuff 
+}
+</pre>
+</section>
+
+
+<section>
+<h3>Using forEach to go through an array</h3>
+
+<pre class="styled-code">
+myArray.forEach(doStuff);
+myArray.forEach(function(){});
+myArray.forEach(functionName);
+</pre>
+</section>
+
+
+
+
+
+<section>
+<pre class="styled-code">
+recipeArr.forEach(function(item,arrIndex,wholeArray){console.log(item,arrIndex)});
+</pre>
+</section>
+
+<section>
+<h3>Add two more recipes to the array.</h3>
+
+</section>
+			</div><!-- Close .slides -->
+  		<footer>
+        <div class="copyright">
+          JavaScript for Beginners ~ Girl Develop It ~
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div><!-- Close .copyright -->
+      </footer>
+    </div><!-- Close .reveal -->
+
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+                touch: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

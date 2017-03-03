@@ -17,11 +17,49 @@
       <guid>http://com402.kellyannepipe.me/class20/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;friday-march-3-2017&#34;&gt;Friday, March 3, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;javascript-recipe-project&#34;&gt;Javascript - Recipe Project&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;We will continue to work on our recipe project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/gdi-intro-js-master/class20.html&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding event listeners&lt;/li&gt;
+&lt;li&gt;Creating a collection of object using array&lt;/li&gt;
+&lt;li&gt;Using &amp;lsquo;foreach&amp;rsquo; to print all pieces of an array&lt;/li&gt;
+&lt;li&gt;Understanding data types and how to change / transfer data types&lt;/li&gt;
+&lt;li&gt;Using data attributes to share information from HTML to JS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;starting-code&#34;&gt;Starting Code&lt;/h2&gt;
+
+&lt;p&gt;Use the following code in the bottom of your script.js for your recipe project.  This is what we worked on in the last class, so you probably already have a lot of this written.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/// showRecipe prints out a recipe
+//    r should be a recipe object.
+function showRecipe(r){
+  document.querySelector(&#39;.recipe h2&#39;).innerHTML = r.title;
+  document.querySelector(&#39;.recipe .servings&#39;).innerHTML = r.servings;
+  document.querySelector(&#39;.recipe .ingredients&#39;).innerHTML = &#39;&#39;;
+  var numingredients = r.ingredients.length;
+  for(var i = 0; i &amp;lt; r.ingredients.length; i = i+1){
+    document.querySelector(&#39;.ingredients&#39;).innerHTML +=  &#39;&amp;lt;li&amp;gt;&#39;+r.ingredients[i]+&#39;&amp;lt;/li&amp;gt;&#39;;
+  }
+};
+
+document
+  .querySelector(&#39;.nextrecipe&#39;)
+  .addEventListener(&#39;click&#39;,function(){
+    console.log(this.classList);
+    console.log(this.getAttribute(&#39;data-recipe&#39;));
+    var recipetoshow = this.getAttribute(&#39;data-recipe&#39;);
+    console.log(recipetoshow);
+    console.log(typeof recipetoshow);
+  });
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
