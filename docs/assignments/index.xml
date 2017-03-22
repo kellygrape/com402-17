@@ -362,6 +362,69 @@ page. You &lt;strong&gt;may not alter&lt;/strong&gt; the HTML at all in the CSS 
     </item>
     
     <item>
+      <title>Project #3</title>
+      <link>http://com402.kellyannepipe.me/assignments/project3/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/assignments/project3/</guid>
+      <description>
+
+&lt;h1 id=&#34;jquery-javascript-project-for-com402&#34;&gt;jQuery / Javascript Project for COM402&lt;/h1&gt;
+
+&lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
+
+&lt;p&gt;This project is based off of a project from &lt;a href=&#34;http://webdev.seattleu.edu/&#34;&gt;Seattle University&amp;rsquo;s Web Development course&lt;/a&gt;. It has been altered for use as part of the &lt;em&gt;COM402: Advanced Web Design&lt;/em&gt; course at Saint Joseph&amp;rsquo;s University.&lt;/p&gt;
+
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;An assignment designed to demonstrate the ability to manipulate the DOM by creating, removing and modifying elements.&lt;/p&gt;
+
+&lt;p&gt;In order to practice DOM manipulation with the help of jQuery, we will fill in information and interactive actions on a page just as we would on a regular website. We will use a Javascript Object called &lt;code&gt;userProfile&lt;/code&gt; to provide imaginary user profile information, as if that had been delivered via an Ajax (XHR) request or some other server mechanism. We will also improve the interactivity of the content by providing some show/hide features and style updating.&lt;/p&gt;
+
+&lt;p&gt;You will use many of the core features discussed in the tutorials at &lt;a href=&#34;http://learn.jquery.com&#34;&gt;learn.jQuery&lt;/a&gt;. That site is a great resource to help you fulfill the following requirements.&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-requirements&#34;&gt;Basic Requirements&lt;/h2&gt;
+
+&lt;p&gt;In order to successfully complete this assignment, you need to fulfill these goals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a pseudo-login effect by replacing the login form with some mock user data (provided  when the user clicks the &amp;ldquo;login&amp;rdquo; button.&lt;/li&gt;
+&lt;li&gt;Activate all the &amp;ldquo;view details&amp;rdquo; buttons so that they show the appropriate hidden content (marked with the &lt;code&gt;details&lt;/code&gt; class) when clicked, and then hide the same content when clicked again.
+
+&lt;ul&gt;
+&lt;li&gt;Alter the text of the &amp;ldquo;view details&amp;rdquo; button that was clicked so it becomes &amp;ldquo;hide details&amp;rdquo; and allows the user to understand that these buttons work to toggle the display of content.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Activate the vote buttons so they properly register, count, and display voting activity. (NOTE: For the basic requirements, these votes do not need to persist across page refreshes, and each user should be able to vote multiple times.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additional information about fulfilling these basic requirements is provided in the comments of &lt;code&gt;js/main.js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you meet the basic requirements of this project, you may receive at maximum 90 points for this project (an A-).&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;stretch-requirements&#34;&gt;Stretch Requirements&lt;/h2&gt;
+
+&lt;p&gt;If you feel up to a larger challenge (and want to try for an A), try to improve your page.  You can attempt to hit at least one of these goals, or improve your page in other ways that you think are beneficial to the project.:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add fancier animations to your content transitions.&lt;/li&gt;
+&lt;li&gt;Add some type of data checking to the login form; see if the user has input a correctly formatted email address&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t let someone vote more than once&lt;/li&gt;
+&lt;li&gt;Add an element on the page that is displayed for a short period of time (see &lt;code&gt;setTimeout&lt;/code&gt;) to let the user know their vote has been counted after they click one of the vote buttons.&lt;/li&gt;
+&lt;li&gt;Remove the style that hides the &lt;code&gt;.details&lt;/code&gt; elements and hide them with Javascript when the DOM is ready. This should allow you to support better accessibility because that content will be shown to screen readers, search engine spiders, and more.&lt;/li&gt;
+&lt;li&gt;Make votes persistent by saving the &lt;code&gt;voteCounts&lt;/code&gt; object to &lt;code&gt;localStorage&lt;/code&gt; (NOTE: LocalStorage is a native Javascript feature, so you will need to consult a more general Javascript resource to learn about it.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/project3.zip&#34;&gt;Here are your starting files&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;delivery&#34;&gt;Delivery&lt;/h2&gt;
+
+&lt;p&gt;This is due on Monday, April 17th, 2017.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://com402.kellyannepipe.me/assignments/projects/</link>
       <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
@@ -398,15 +461,9 @@ page. You &lt;strong&gt;may not alter&lt;/strong&gt; the HTML at all in the CSS 
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Project #2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Monday, April 17, 2017&lt;/td&gt;
 &lt;td&gt;Project #3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/assignments/project3&#34;&gt;Project #3 Assignment&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
