@@ -6,8 +6,43 @@
     <description>Recent content in Class26s on COM402 Advanced Web Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2017 18:43:51 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://com402.kellyannepipe.me/class26/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Assignment 1 - Dark Patterns</title>
+      <link>http://com402.kellyannepipe.me/class26/assignment1/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class26/assignment1/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve learned a little bit about UI and UX.  Sometimes, learning what is &lt;em&gt;good&lt;/em&gt; web design is easy when you learn about &lt;em&gt;bad&lt;/em&gt; web design.&lt;/p&gt;
+
+&lt;h3 id=&#34;read&#34;&gt;Read&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you&#34;&gt;http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fastcodesign.com/3066586/the-year-dark-patterns-won&#34;&gt;https://www.fastcodesign.com/3066586/the-year-dark-patterns-won&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usertesting.com/blog/2015/10/01/dark-patterns-the-sinister-side-of-ux/&#34;&gt;https://www.usertesting.com/blog/2015/10/01/dark-patterns-the-sinister-side-of-ux/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;explore&#34;&gt;Explore&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://darkpatterns.org/&#34;&gt;https://darkpatterns.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;respond&#34;&gt;Respond&lt;/h3&gt;
+
+&lt;p&gt;Over the next week, as you navigate the web take note of some dark patterns that you find.  Email me a 150-200 word response to tell me about what you have experienced, answering the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Why do you think the company has implemented this?&lt;/li&gt;
+&lt;li&gt;What would YOU do differently?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Friday, March 24, 2017</title>
@@ -19,9 +54,89 @@
 
 &lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;assignments-for-next-week&#34;&gt;Assignments for Next Week&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Class will not be held next week, but I would like you to keep up with your education.  I have some assignments; everything is due before class on Monday of next week.  This will count towards your in class / participation work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 2 - Javascript30 - 1</title>
+      <link>http://com402.kellyannepipe.me/class26/assignment2/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class26/assignment2/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;ve been working with Javascript and jQuery - here is a great set of tutorials for Javascript!&lt;/p&gt;
+
+&lt;h3 id=&#34;sign-up&#34;&gt;Sign Up&lt;/h3&gt;
+
+&lt;p&gt;Sign up for an account at &lt;a href=&#34;https://javascript30.com/&#34;&gt;Javascript 30&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;complete&#34;&gt;Complete&lt;/h3&gt;
+
+&lt;p&gt;Complete the first lesson (day one, the drum kit)&lt;/p&gt;
+
+&lt;h3 id=&#34;respond&#34;&gt;Respond&lt;/h3&gt;
+
+&lt;p&gt;Send me your completed file(s) (zip is fine!), with a 100ish word response about your experience.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Did you like learning via a video tutorial?&lt;/li&gt;
+&lt;li&gt;How could you use what you learned in this tutorial to create something different?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 3 - Javascript30 - 3</title>
+      <link>http://com402.kellyannepipe.me/class26/assignment3/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class26/assignment3/</guid>
+      <description>
+
+&lt;p&gt;Once you&amp;rsquo;ve completed Day 1 of Javascript 30, you can skip day 2 (woah, we&amp;rsquo;re rebels!) and go right to Day 3.  We&amp;rsquo;re skipping day 2 because we already made a clock together, but if you want to review or want to see how HE did it, feel free to follow.&lt;/p&gt;
+
+&lt;h3 id=&#34;complete&#34;&gt;Complete&lt;/h3&gt;
+
+&lt;p&gt;Complete the third lesson (day three, the playing with variables in CSS)&lt;/p&gt;
+
+&lt;h3 id=&#34;respond&#34;&gt;Respond&lt;/h3&gt;
+
+&lt;p&gt;Send me your completed file(s) (zip is fine!), with a 100ish word response about your experience.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Did you like learning via a video tutorial?&lt;/li&gt;
+&lt;li&gt;How could you use what you learned in this tutorial to create something different?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consuming an API using jQuery</title>
+      <link>http://com402.kellyannepipe.me/class26/consumingapi/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class26/consumingapi/</guid>
+      <description>
+
+&lt;p&gt;Let&amp;rsquo;s work together to consume an API using jQuery.&lt;/p&gt;
+
+&lt;p&gt;A few points to cover&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What is an API?&lt;/li&gt;
+&lt;li&gt;What type of &lt;em&gt;response&lt;/em&gt; might we get from an api?&lt;/li&gt;
+&lt;li&gt;What is JSON?&lt;/li&gt;
+&lt;li&gt;How do we get data from an API using AJAX?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;build-together&#34;&gt;Build Together&lt;/h2&gt;
+
+&lt;p&gt;-&lt;a href=&#34;https://github.com/Giphy/GiphyAPI&#34;&gt;Giphy API&lt;/a&gt;
+-&lt;a href=&#34;https://codepen.io/kellygrape/pen/LWbZPg&#34;&gt;Quotes API example&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
