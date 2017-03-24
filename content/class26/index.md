@@ -2,7 +2,7 @@
 chapter = true
 prev = "/class25"
 next = "/class26/assignment1"
-weight = 2
+weight = 1
 title = "Friday, March 24, 2017"
 date = "2017-01-06T18:43:51-05:00"
 icon = "<b>X. </b>"
