@@ -9,8 +9,8 @@ icon = "<b>X. </b>"
 
 +++
 
-### Chapter X
+### Monday, April 3, 2017
 
-# Some Chapter title
+# HTML Forms and jQuery - Hello World
 
-Lorem ipsum
+<script src="https://gist.github.com/kellygrape/156d5b5affda0659e7dce40a2c7b697a.js"></script>
