@@ -17,11 +17,40 @@
       <guid>http://com402.kellyannepipe.me/class35/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;tuesday-april-18-2017&#34;&gt;Tuesday, April 18, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;tuesday&#34;&gt;Tuesday?&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;Today we will be looking at the final project, and having an opportunity to begin working on it.&lt;/p&gt;
+
+&lt;p&gt;I will also be introducing the concept of &lt;em&gt;build scripts&lt;/em&gt;, pieces of code that you run on your own computer to help do things like &lt;strong&gt;compile SASS&lt;/strong&gt; and &lt;strong&gt;auto-prefix&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will be installing FastShell, an HTML starter kit that integrates SASS, jQuery, and builds it all together using Gulp.&lt;/p&gt;
+
+&lt;p&gt;##FastShell&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/HosseinKarami/fastshell&#34;&gt;Download Fastshell Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;The opinionated FastShell framework. Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;project-setup-and-gulp-installation&#34;&gt;Project setup and Gulp installation&lt;/h2&gt;
+
+&lt;p&gt;FastShell utilizes open source components running on the Terminal/command-line for its workflow, you&amp;rsquo;ll need to install Node and Gulp. Here&amp;rsquo;s a walkthrough of how to get a project up and running in minutes. Once Node and Gulp are installed all future projects running Gulp are instant.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&#34;http://nodejs.org/download&#34;&gt;Node.js&lt;/a&gt;, &lt;a href=&#34;http://sass-lang.com/tutorial.html&#34;&gt;Sass&lt;/a&gt; and &lt;a href=&#34;http://git-scm.com&#34;&gt;Git&lt;/a&gt; on your machine. If you&amp;rsquo;re a Windows user you&amp;rsquo;ll also need to install &lt;a href=&#34;http://rubyinstaller.org/downloads&#34;&gt;Ruby&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://Gulpjs.com/&#34;&gt;Install Gulp&lt;/a&gt; using &lt;code&gt;npm install -g gulp&lt;/code&gt;. You may need to use &lt;code&gt;sudo&lt;/code&gt; in front of the Gulp install command to give it permissions.&lt;/li&gt;
+&lt;li&gt;Fork/Clone/Download the FastShell repository into your machine, you should hopefully see all the files and folders.&lt;/li&gt;
+&lt;li&gt;Open Terminal and install FastShell&amp;rsquo;s dependencies to &lt;code&gt;node_modules&lt;/code&gt; directory in your project directory using &lt;code&gt;npm install&lt;/code&gt;. You don&amp;rsquo;t need &lt;code&gt;sudo&lt;/code&gt; to do this.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;npm install&lt;/code&gt; you did in previous step should install all the dependencies, which you can confirm by visiting the &lt;code&gt;node_modules&lt;/code&gt; in your project directory. Then use &lt;code&gt;gulp&lt;/code&gt; (again in your project directory) to run the commands associated with FastShell and to automatically open a new FastShell project running on &lt;code&gt;localhost:3002&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;From now on, just run &lt;code&gt;gulp&lt;/code&gt; in your project directory to automatically run FastShell&amp;rsquo;s Gulp tasks.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;how-to-use-fastshell&#34;&gt;How to use FastShell&lt;/h2&gt;
+
+&lt;p&gt;Using FastShell is very easy, it&amp;rsquo;s based on an easy philosophy of keeping things simple so that anybody can use it, even with zero experience on the command-line. FastShell uses Gulp to manage all the essential tasks for building with the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/HosseinKarami/fastshell/blob/master/DOCS.md&#34;&gt;Previous content from FastShell&amp;rsquo;s Docs&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
