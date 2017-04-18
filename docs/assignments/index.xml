@@ -425,6 +425,100 @@ page. You &lt;strong&gt;may not alter&lt;/strong&gt; the HTML at all in the CSS 
     </item>
     
     <item>
+      <title>Project #4</title>
+      <link>http://com402.kellyannepipe.me/assignments/project4/</link>
+      <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/assignments/project4/</guid>
+      <description>
+
+&lt;h1 id=&#34;final-project-for-com402&#34;&gt;Final Project for COM402&lt;/h1&gt;
+
+&lt;p&gt;This is a two-part project.&lt;/p&gt;
+
+&lt;h1 id=&#34;project-4-part-1-airport-parking-app&#34;&gt;Project 4 Part 1 - Airport Parking App&lt;/h1&gt;
+
+&lt;p&gt;The first part will allow you to build a single-page application that displays parking information about the Philly Airport.  This simple app will demonstrate your ability to consume an API and display the information.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://phlapi.com/airportparking.html&#34;&gt;API Information&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop HTML and CSS for an app that displays parking information for the Philly Airport.&lt;/li&gt;
+&lt;li&gt;Write JavaScript to request &lt;a href=&#34;http://phlapi.com/airportparking.html&#34;&gt;the Philly Parking API&lt;/a&gt; via AJAX and populate your app with live data.&lt;/li&gt;
+&lt;li&gt;Display the location of the parking lot (display_name in the API) and the number of spaces.&lt;/li&gt;
+&lt;li&gt;Add some styling that will help the user to quickly see if the lot is almost full (the API does show the total number of spaces, so you can compare that to the spaces available - you get to decide what constitutes &amp;ldquo;almost full&amp;rdquo;, but at least ONE of your lots should be almost full.)&lt;/li&gt;
+&lt;li&gt;Add comments to your code to let me know what you were thinking!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Libraries &amp;amp; Frameworks&lt;/em&gt;: You are welcome to use any framework that you wish - plain Javascript, jQuery, whatever you wish!&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This must be responsive!&lt;/em&gt; Your app should be accessible on a mobile phone.  Think really carefully about how it looks in different browsers / at different sizes.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Standards&lt;/em&gt;: Your solution should be valid (check your HTML and CSS for coding errors), semantic (use semantic HTML markup), accessible (make sure that people who may have disabilities and cannot navigate using a mouse are able to tab through your form), and lightweight (no huge images!).  Feel free to use Bootstrap or another design framework.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Give Credit Where it is Due&lt;/em&gt;: if you use some great styling you found on Codepen, or are using some type of framework, please put a comment in your code that gives credit to the original creator.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Submission&lt;/em&gt;: Upload to Github or send me a zip file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bonus&#34;&gt;Bonus&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The API includes longitude and latitude points.  Use these to create a Google Maps direction to each parking lot.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;super-challenge-optional&#34;&gt;Super Challenge (optional)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrate the Google Maps API so that these come up as pins on a Google Map!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;project-4-part-2-find-your-representatives&#34;&gt;Project 4 Part 2 - Find Your Representatives!&lt;/h1&gt;
+
+&lt;p&gt;Your challenge is to create an interactive widget for finding elected officials.&lt;/p&gt;
+
+&lt;p&gt;Your data will come from the &lt;a href=&#34;https://sunlightlabs.github.io/congress/index.html&#34;&gt;Sunlight Foundation&lt;/a&gt; Open API.  At the time of this assignment being created, the Sunlight Foundation API is being migrated to &lt;a href=&#34;https://www.propublica.org/nerds/item/sunlight-labs-takeover-update&#34;&gt;Pro-Publica&lt;/a&gt;.  This is excellent for open data, but a bit challenging for us - the documentation for both is a bit outdated.&lt;/p&gt;
+
+&lt;p&gt;The largest impact to you is that you cannot register for an API key - but you do not actually need one right now (despite what the API docs say).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codepen.io/kellygrape/pen/NjGNdJ&#34;&gt;You can get an example of how to start this here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;instructions-1&#34;&gt;Instructions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop HTML and CSS for an app that will allow a user to search for their elected officials using a zip code.&lt;/li&gt;
+&lt;li&gt;Write JavaScript to request &lt;a href=&#34;https://sunlightlabs.github.io/congress/index.html&#34;&gt;the Sunlight Congress API&lt;/a&gt; via AJAX and populate your app with live data.&lt;/li&gt;
+&lt;li&gt;Integrate at least four different pieces of biographical information into your return.  For example, you may wish to provide contact information or social media links for the representatives.&lt;/li&gt;
+&lt;li&gt;Consider how you may handle errors.  Your app should handle if a user searches for a non-working zip code (like, ABCDE instead of 19131).&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Add comments to your code to let me know what you were thinking!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;requirements-1&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Libraries &amp;amp; Frameworks&lt;/em&gt;: You are welcome to use any framework that you wish - plain Javascript, jQuery, whatever you wish!&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This must be responsive!&lt;/em&gt; Your app should be accessible on a mobile phone.  Think really carefully about how it looks in different browsers / at different sizes.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Standards&lt;/em&gt;: Your solution should be valid (check your HTML and CSS for coding errors), semantic (use semantic HTML markup), accessible (make sure that people who may have disabilities and cannot navigate using a mouse are able to tab through your form), and lightweight (no huge images!).  Feel free to use Bootstrap or another design framework.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Give Credit Where it is Due&lt;/em&gt;: if you use some great styling you found on Codepen, or are using some type of framework, please put a comment in your code that gives credit to the original creator.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Submission&lt;/em&gt;: Upload to Github or send me a zip file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;super-challenge-optional-1&#34;&gt;Super Challenge (optional)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Include a button below each representative; if they have a twitter account, pull in their latest tweet!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;delivery&#34;&gt;Delivery&lt;/h2&gt;
+
+&lt;p&gt;This is due on May 10, 2017 at 1:00pm.&lt;/p&gt;
+
+&lt;p&gt;Late submissions cannot be accepted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://com402.kellyannepipe.me/assignments/projects/</link>
       <pubDate>Fri, 06 Jan 2017 18:41:57 -0500</pubDate>
@@ -467,9 +561,9 @@ page. You &lt;strong&gt;may not alter&lt;/strong&gt; the HTML at all in the CSS 
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;May 10, 2017&lt;/td&gt;
 &lt;td&gt;Final Project&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://com402.kellyannepipe.me/assignments/project4&#34;&gt;Project #4 Assignment&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

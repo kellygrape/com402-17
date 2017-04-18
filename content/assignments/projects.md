@@ -19,6 +19,6 @@ weight = 1
 |   Monday, February 27, 2017   |   Project #2 - part 1   |  [Project #2 Assignment](/assignments/project2) |
 |   Friday, March 10, 2017   |   Project #2 - part 2   |  [Project #2 Assignment](/assignments/project2) |
 |   Monday, April 17, 2017   |   Project #3   |  [Project #3 Assignment](/assignments/project3) |
-| | Final Project  |  |
+|   May 10, 2017   |   Final Project   |  [Project #4 Assignment](/assignments/project4) |
 
 {{% /fancytable %}}
