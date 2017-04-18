@@ -26,8 +26,18 @@
 &lt;p&gt;I will also be introducing the concept of &lt;em&gt;build scripts&lt;/em&gt;, pieces of code that you run on your own computer to help do things like &lt;strong&gt;compile SASS&lt;/strong&gt; and &lt;strong&gt;auto-prefix&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;We will be installing FastShell, an HTML starter kit that integrates SASS, jQuery, and builds it all together using Gulp.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fastshell</title>
+      <link>http://com402.kellyannepipe.me/class35/fastshell/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class35/fastshell/</guid>
+      <description>
 
-&lt;p&gt;##FastShell&lt;/p&gt;
+&lt;h2 id=&#34;fastshell&#34;&gt;FastShell&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/HosseinKarami/fastshell&#34;&gt;Download Fastshell Here&lt;/a&gt;&lt;/p&gt;
 
