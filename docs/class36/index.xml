@@ -19,9 +19,58 @@
 
 &lt;h3 id=&#34;wednesday-april-19-2017&#34;&gt;Wednesday, April 19, 2017&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;site-generators&#34;&gt;Site Generators&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;We are reaching the end of our course, and I want to give you guys the tools you need to quickly create a little portfolio.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Site Generators</title>
+      <link>http://com402.kellyannepipe.me/class36/sitegenerators/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://com402.kellyannepipe.me/class36/sitegenerators/</guid>
+      <description>
+
+&lt;p&gt;Have you ever gone in and looked at the source code for this class website?  I mean, in the github repo.  You may have noticed a lot of stuff that looks like unformatted &amp;ldquo;Readme&amp;rdquo; files from other repositories.  For example, check out yesterday&amp;rsquo;s lesson about Fastshell. (&lt;a href=&#34;https://github.com/kellygrape/com402-17/blob/master/content/class35/fastshell.md&#34;&gt;View on Github&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;I am using a static site generator called &lt;em&gt;Hugo&lt;/em&gt; to build my site.  This allows me to write my site in Markdown (a simple, text-only way of writing content), run a command on my computer (using Terminal, like we did yesterday!), and a site is generated.&lt;/p&gt;
+
+&lt;p&gt;Then, I am able to serve my site up to Github, using Github Pages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;A static site&lt;/em&gt; is a collection of pages contained in basic HTML files. You could hand-write these in a text editor, but managing assets and repeated elements such as navigation can become problematic.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A content management system (CMS)&lt;/em&gt; stores page content in a database and provides facilities to edit and apply themes. Management becomes easier at the expense of flexibility, performance, server requirements, security and backups.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A static site generator (SSG)&lt;/em&gt; is a compromise between using a hand-coded static site and a full CMS. You generate an HTML-only website using raw data (such as Markdown files) and templates. The resulting build is transferred to your live server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(above is from &lt;a href=&#34;https://www.sitepoint.com/7-reasons-not-use-static-site-generator/&#34;&gt;Sitepoint&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll&#34;&gt;Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s all set up Jekyll on our computers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/&#34;&gt;Windows Instructions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://treehouse.github.io/installation-guides/mac/jekyll-mac.html&#34;&gt;Mac Instructions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have Jekyll installed, pick one of these two portfolio sites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://madebymunsters.github.io/portfolio-iro/&#34;&gt;Portfolio IRO&lt;/a&gt; (&lt;a href=&#34;https://github.com/bloc/portfolio-iro&#34;&gt;github link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://madebymunsters.github.io/portfolio-kami/&#34;&gt;Portfolio Kami&lt;/a&gt; (&lt;a href=&#34;https://github.com/madebymunsters/portfolio-kami&#34;&gt;github link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Fork&lt;/strong&gt; the one that you like best, and then &lt;strong&gt;clone&lt;/strong&gt; it to your computer.&lt;/p&gt;
+
+&lt;p&gt;When you have cloned it, the folder will be on your computer. Find where it has been cloned to, and then open it with Atom.&lt;/p&gt;
+
+&lt;h2 id=&#34;terminal-plus&#34;&gt;Terminal Plus&lt;/h2&gt;
+
+&lt;p&gt;In Atom, open the Package Installer (Cmd-Shift-P, search for &amp;ldquo;Install&amp;rdquo; .. you want to install a package) and search for &amp;ldquo;Terminal Plus&amp;rdquo;.  Install this.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll give everyone some time to do these two steps, and then we will look at the code together.&lt;/p&gt;
 </description>
     </item>
     

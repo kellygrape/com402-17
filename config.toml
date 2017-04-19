@@ -4,16 +4,16 @@ baseurl = "http://com402.kellyannepipe.me/"
 theme = "hugo-theme-learn"
 publishDir = "docs"
 [params]
-  currentclass = "class35"
+  currentclass = "class36"
   menu = ["class-info", 
           "assignments", 
-          ##"class42",
+          ## "class42",
           ## "class41",
           ## "class40",
           ## "class39",
           ## "class38",
           ## "class37",
-          ## "class36",
+          "class36",
           "class35",
           ## "class34",
           ## "class33",

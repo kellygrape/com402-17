@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>Wednesday, February 8, 2017</title>
+    <title>Site Generators</title>
     <link href="http://com402.kellyannepipe.me//css/nucleus.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/font-awesome.min.css" rel="stylesheet">
     <link href="http://com402.kellyannepipe.me//css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/class10/">
+  <body class="" data-url="/class36/sitegenerators/">
     <nav id="sidebar">
   <div id="header-wrapper">
     <header role="banner" id="header">
@@ -292,7 +292,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/class36/">
+      <li class="dd-item  parent" data-nav-id="/class36/">
         <a href="/class36/">
           <span>
             
@@ -309,7 +309,7 @@
           
           
           
-            <li class="dd-item " data-nav-id="/class36/sitegenerators/">
+            <li class="dd-item active" data-nav-id="/class36/sitegenerators/">
               <a href="/class36/sitegenerators/">
                 <span>Site Generators     </i></span>
               </a>
@@ -934,7 +934,7 @@
       
       
 
-      <li class="dd-item active parent" data-nav-id="/class10/">
+      <li class="dd-item  " data-nav-id="/class10/">
         <a href="/class10/">
           <span>
             
@@ -1582,8 +1582,62 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
                 
                 
+                
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
                 
                   
                 
@@ -1610,6 +1664,8 @@
                   
                     
                     
+                <a href="/class36/" itemprop="url"><span itemprop="title">Wednesday, April 19, 2017</span></a> <i class="fa fa-angle-right"></i>
+                    
                   
                 
                   
@@ -1624,87 +1680,83 @@
                 
                   
                 
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                <span itemprop="title"> Wednesday, February 8, 2017</span>
+                <span itemprop="title"> Site Generators</span>
               </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#jekyll">Jekyll</a></li>
+<li><a href="#terminal-plus">Terminal Plus</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
               
 
             </div>
             
-              <div id="chapter">
-            
     	        <div id="body-inner">
+                
+                <h1>Site Generators</h1>
                 
 
 
 
-<h3 id="wednesday-february-8-2017">Wednesday, February 8, 2017</h3>
+<p>Have you ever gone in and looked at the source code for this class website?  I mean, in the github repo.  You may have noticed a lot of stuff that looks like unformatted &ldquo;Readme&rdquo; files from other repositories.  For example, check out yesterday&rsquo;s lesson about Fastshell. (<a href="https://github.com/kellygrape/com402-17/blob/master/content/class35/fastshell.md">View on Github</a>)</p>
 
-<h1 id="javascript-continued">Javascript (continued)</h1>
+<p>I am using a static site generator called <em>Hugo</em> to build my site.  This allows me to write my site in Markdown (a simple, text-only way of writing content), run a command on my computer (using Terminal, like we did yesterday!), and a site is generated.</p>
+
+<p>Then, I am able to serve my site up to Github, using Github Pages.</p>
+
+<ul>
+<li><em>A static site</em> is a collection of pages contained in basic HTML files. You could hand-write these in a text editor, but managing assets and repeated elements such as navigation can become problematic.</li>
+<li><em>A content management system (CMS)</em> stores page content in a database and provides facilities to edit and apply themes. Management becomes easier at the expense of flexibility, performance, server requirements, security and backups.</li>
+<li><em>A static site generator (SSG)</em> is a compromise between using a hand-coded static site and a full CMS. You generate an HTML-only website using raw data (such as Markdown files) and templates. The resulting build is transferred to your live server.</li>
+</ul>
+
+<p>(above is from <a href="https://www.sitepoint.com/7-reasons-not-use-static-site-generator/">Sitepoint</a>)</p>
+
+<h2 id="jekyll">Jekyll</h2>
+
+<p>Let&rsquo;s all set up Jekyll on our computers.</p>
+
+<p><a href="https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/">Windows Instructions</a></p>
+
+<p><a href="http://treehouse.github.io/installation-guides/mac/jekyll-mac.html">Mac Instructions</a></p>
+
+<p>Once you have Jekyll installed, pick one of these two portfolio sites:</p>
+
+<ul>
+<li><a href="http://madebymunsters.github.io/portfolio-iro/">Portfolio IRO</a> (<a href="https://github.com/bloc/portfolio-iro">github link</a>)</li>
+<li><a href="http://madebymunsters.github.io/portfolio-kami/">Portfolio Kami</a> (<a href="https://github.com/madebymunsters/portfolio-kami">github link</a>)</li>
+</ul>
+
+<p><strong>Fork</strong> the one that you like best, and then <strong>clone</strong> it to your computer.</p>
+
+<p>When you have cloned it, the folder will be on your computer. Find where it has been cloned to, and then open it with Atom.</p>
+
+<h2 id="terminal-plus">Terminal Plus</h2>
+
+<p>In Atom, open the Package Installer (Cmd-Shift-P, search for &ldquo;Install&rdquo; .. you want to install a package) and search for &ldquo;Terminal Plus&rdquo;.  Install this.</p>
+
+<p>I&rsquo;ll give everyone some time to do these two steps, and then we will look at the code together.</p>
 
 
-      
-        </div> 
       
       </div>
     </div>
 
     <div id="navigation">
         
-        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class09"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-prev" href="http://com402.kellyannepipe.me//class36/"> <i class="fa fa-chevron-left"></i></a>
         
-        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class10/jsexercise" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-next" href="http://com402.kellyannepipe.me//class36/" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
